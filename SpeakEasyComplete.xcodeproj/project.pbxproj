@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -46,7 +46,9 @@
 		2AAAF77E82ECA6E8A3B391E0 /* TeacherAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842C1E8D59C2205DA5F39C61 /* TeacherAnimationView.swift */; };
 		31BEB29C75A129D89C6980BB /* Lesson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9592A43608D0C2AA8F3CF4 /* Lesson.swift */; };
 		31FAA699A6CF538B773E3C3F /* AutoVoiceSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8E973F02AF134269F474C9 /* AutoVoiceSettings.swift */; };
+		3232B2FCBC58A8D0CB08CD99 /* AuthenticationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A29F3EBD6D2817F1BE80D92 /* AuthenticationServices.framework */; };
 		324649559DA3D28E0D505EA9 /* AdaptiveLearningService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E20184F060A67D003C662B4 /* AdaptiveLearningService.swift */; };
+		33B2BC0824900B4A69D9C41F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D10D1AC9D0CB99AABCE657E3 /* Assets.xcassets */; };
 		354F4F292725898FE4843EAB /* DifficultyLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFF4CD1CAF4CCD56E646B20 /* DifficultyLevel.swift */; };
 		3774396446CFDA919751A147 /* RealTimeAnalyticsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 921D30B4969F9E91365EC5D4 /* RealTimeAnalyticsManager.swift */; };
 		3781773F1E95ED3DCB6AA8F6 /* MetricCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72114D65078CE01B6D1462D8 /* MetricCard.swift */; };
@@ -74,6 +76,7 @@
 		69B856369DFD063DE8F6AC73 /* GrammarReferenceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C28AC6630126BFECD9F6924 /* GrammarReferenceView.swift */; };
 		6BAF3966A53668D5AEF5644A /* ActiveProductionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C392962FB93F49D24A5A4048 /* ActiveProductionService.swift */; };
 		6BFEC7C5498848A6476E2C14 /* AudioLevelMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461C5C517BDA301744390E8C /* AudioLevelMonitor.swift */; };
+		702D593C30C8DDDAE008ECAD /* SpeakEasyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5AD1CE175E77E1D54ACEA28 /* SpeakEasyApp.swift */; };
 		7355C5C2889E73B8BBBFCEE6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD810E814E910695A0693C1E /* ContentView.swift */; };
 		7380C354AD92049349271521 /* AssessmentResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7E0FDD35B242740F14272A /* AssessmentResult.swift */; };
 		76CBB68E48B2E91C563DFF3B /* PronunciationDrillingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895D6FF04494461D5CCCB218 /* PronunciationDrillingService.swift */; };
@@ -125,6 +128,11 @@
 		CD5C803939A2623432B73EBF /* ComprehensibleInputService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3AB3643C23073B5A94402C /* ComprehensibleInputService.swift */; };
 		CFAD5A4B358E689B857D0A33 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1459D2D513AB32645FAF3F /* TabBarView.swift */; };
 		D18FF52B605E265B5718DBA7 /* GradientBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5ECC3C20EDA3240D4F418E /* GradientBackground.swift */; };
+		D25E21E42EBA5AE000FC634B /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = 6D67CE4FC14DA5C2EE3CE621 /* FirebaseCore */; };
+		D25E21E52EBA5AE000FC634B /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 2E05F05C142495573263FA68 /* FirebaseAuth */; };
+		D25E21E62EBA5AE000FC634B /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = A1B486E93E018D461CD947F1 /* GoogleSignIn */; };
+		D25E21E72EBA5AE000FC634B /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 668F9817C77DA5A7972F7785 /* GoogleSignInSwift */; };
+		D25E21E82EBA5AE000FC634B /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = C89B7E556019DECFBF7A1A7C /* Alamofire */; };
 		D31C35D60526FA4C292BCFFD /* Language.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB235DE4DE47B22807A5D693 /* Language.swift */; };
 		D52FE1C36C6944FAD7569395 /* MultiLanguageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E572F74BAE57360C5A47715 /* MultiLanguageService.swift */; };
 		DA4D71B2E2413B78C5F25619 /* LearningProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FEB492093BB7400EAE8FD51 /* LearningProgress.swift */; };
@@ -161,6 +169,8 @@
 		042045AA156C8F71DE6B84CD /* MultiLanguageContentDemo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MultiLanguageContentDemo.swift; sourceTree = "<group>"; };
 		057199D739A11BBE8D6DC8DE /* FocusOnFormService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FocusOnFormService.swift; sourceTree = "<group>"; };
 		076AE823B20394D888951AD7 /* LanguageFeatures.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LanguageFeatures.swift; sourceTree = "<group>"; };
+		07A363E3C5D43C05D249AC04 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08ABDFCA6CEC8D8E149B7238 /* Extensions */ = {isa = PBXFileReference; includeInIndex = 1; path = Extensions; sourceTree = SOURCE_ROOT; };
 		090265A1BFD50D150C22F259 /* ComprehensiveLessonData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ComprehensiveLessonData.swift; sourceTree = "<group>"; };
 		09187F199EA8B9BE38A5F069 /* ImprovementTipsView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ImprovementTipsView.swift; sourceTree = "<group>"; };
 		0957B328061AE2C573B38780 /* Secrets.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Secrets.plist; sourceTree = "<group>"; };
@@ -172,9 +182,11 @@
 		0EEDE01C170CCD5134CB2E63 /* MusicManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MusicManager.swift; sourceTree = "<group>"; };
 		108B41D59CB48C2A16C6D65E /* SongLearningView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SongLearningView.swift; sourceTree = "<group>"; };
 		115BC87DD437CFC75131CEDA /* OverviewDashboard.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = OverviewDashboard.swift; sourceTree = "<group>"; };
+		12844F50E966457B3C9F9387 /* Theme */ = {isa = PBXFileReference; includeInIndex = 1; path = Theme; sourceTree = SOURCE_ROOT; };
 		13A872A0828FB9582B9E888E /* VoiceComparisonView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VoiceComparisonView.swift; sourceTree = "<group>"; };
 		15B5691DDD4035947881D26E /* PronunciationCoachView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PronunciationCoachView.swift; sourceTree = "<group>"; };
 		170BBA6B266AE0EB2C1D0E72 /* PracticeView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PracticeView.swift; sourceTree = "<group>"; };
+		1A48AF79C020BBBC62E9FFDF /* Utilities */ = {isa = PBXFileReference; includeInIndex = 1; path = Utilities; sourceTree = SOURCE_ROOT; };
 		1D4098714F3F0681EF495449 /* APIService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
 		206CC3C2AA4580CDED6C968B /* SessionMetrics.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SessionMetrics.swift; sourceTree = "<group>"; };
 		20FD25ADB775FDAA2A953777 /* AutoVoiceService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AutoVoiceService.swift; sourceTree = "<group>"; };
@@ -191,12 +203,16 @@
 		35FF02EE7E49F0738D1146B5 /* UserProfileViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UserProfileViewModel.swift; sourceTree = "<group>"; };
 		3752FC5B4F5D64E62F0B9D81 /* OpenAIRealtimeService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = OpenAIRealtimeService.swift; sourceTree = "<group>"; };
 		397B85E405F6931C7CB2801C /* ContentStrategy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ContentStrategy.swift; sourceTree = "<group>"; };
+		3A29F3EBD6D2817F1BE80D92 /* AuthenticationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AuthenticationServices.framework; path = System/Library/Frameworks/AuthenticationServices.framework; sourceTree = SDKROOT; };
 		3BE651B59DA72394B98D5B79 /* AppState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
 		3F9592A43608D0C2AA8F3CF4 /* Lesson.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Lesson.swift; sourceTree = "<group>"; };
 		40C5424FD6FE916D111C43FC /* AnimatedCheckmark.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AnimatedCheckmark.swift; sourceTree = "<group>"; };
+		4166DFE742589A6F06631E63 /* Views */ = {isa = PBXFileReference; includeInIndex = 1; path = Views; sourceTree = SOURCE_ROOT; };
+		446798858A758A205C2A2813 /* Services */ = {isa = PBXFileReference; includeInIndex = 1; path = Services; sourceTree = SOURCE_ROOT; };
 		461C5C517BDA301744390E8C /* AudioLevelMonitor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AudioLevelMonitor.swift; sourceTree = "<group>"; };
 		463610426F2DD72A5401DBAF /* NotificationSettingsView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NotificationSettingsView.swift; sourceTree = "<group>"; };
 		4886902F8BC41236CA1123F0 /* QuizResult.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = QuizResult.swift; sourceTree = "<group>"; };
+		49F87FDD04E7BE1E2A62277A /* Controllers */ = {isa = PBXFileReference; includeInIndex = 1; path = Controllers; sourceTree = SOURCE_ROOT; };
 		4AB0764062F21AFB3A02D653 /* ReviewSection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReviewSection.swift; sourceTree = "<group>"; };
 		4BBA955A89E27CCA668D2E21 /* UserProfile.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
 		4BBB172127EEB08D214ED88D /* LessonContentGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LessonContentGenerator.swift; sourceTree = "<group>"; };
@@ -224,6 +240,7 @@
 		753B23835698E6DA106248B3 /* TalkingAvatarView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TalkingAvatarView.swift; sourceTree = "<group>"; };
 		78FC9D1AE1B55957044BA77F /* VoiceControlsView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VoiceControlsView.swift; sourceTree = "<group>"; };
 		7A92F5C34BA8D6A79D2347BA /* PracticeSession.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PracticeSession.swift; sourceTree = "<group>"; };
+		7AF292686C1F4D87011CD02A /* SpeakEasyComplete.entitlements */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.entitlements; path = SpeakEasyComplete.entitlements; sourceTree = "<group>"; };
 		7BB26BFCB03BB9597BCDBDC3 /* FeedbackSection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FeedbackSection.swift; sourceTree = "<group>"; };
 		7C28AC6630126BFECD9F6924 /* GrammarReferenceView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GrammarReferenceView.swift; sourceTree = "<group>"; };
 		7FEB492093BB7400EAE8FD51 /* LearningProgress.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LearningProgress.swift; sourceTree = "<group>"; };
@@ -232,6 +249,7 @@
 		8267F4345D807B1C6F700013 /* LessonsContentView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LessonsContentView.swift; sourceTree = "<group>"; };
 		8429970127E44302D9201834 /* LoadingView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 		842C1E8D59C2205DA5F39C61 /* TeacherAnimationView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TeacherAnimationView.swift; sourceTree = "<group>"; };
+		860C104F71E0379C2897A1D8 /* Data */ = {isa = PBXFileReference; includeInIndex = 1; path = Data; sourceTree = SOURCE_ROOT; };
 		879C5DC738590A019A4B821B /* ChatTranscriptView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ChatTranscriptView.swift; sourceTree = "<group>"; };
 		87C2C433C2FD656184A99E2C /* AppFormatters.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AppFormatters.swift; sourceTree = "<group>"; };
 		88F5EE2CA30CFD96EB46FFD1 /* AchievementsSection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AchievementsSection.swift; sourceTree = "<group>"; };
@@ -240,6 +258,7 @@
 		8EA71E73047C243E9B148CCB /* AuthenticationViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AuthenticationViewModel.swift; sourceTree = "<group>"; };
 		8EAC7434DE4CC9AA7E9789CF /* AssessmentService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AssessmentService.swift; sourceTree = "<group>"; };
 		906CB7E145A619FDF57FF27E /* VisemeTeacherAvatarView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VisemeTeacherAvatarView.swift; sourceTree = "<group>"; };
+		9119B1D36CF51FE4FF88F3C6 /* SpeakEasy.entitlements */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.entitlements; path = SpeakEasy.entitlements; sourceTree = "<group>"; };
 		920517791821EDE746CD2DFA /* FluencyTechnique.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FluencyTechnique.swift; sourceTree = "<group>"; };
 		92100136CB314D1BB41354AF /* ProgressView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ProgressView.swift; sourceTree = "<group>"; };
 		921D30B4969F9E91365EC5D4 /* RealTimeAnalyticsManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RealTimeAnalyticsManager.swift; sourceTree = "<group>"; };
@@ -249,8 +268,9 @@
 		959309546448636B8511C20A /* AssessmentViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AssessmentViewModel.swift; sourceTree = "<group>"; };
 		979357A21B76841B218E7AFF /* StoriesContentView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StoriesContentView.swift; sourceTree = "<group>"; };
 		980D30D99216BEAAF09B8C83 /* GoogleService-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		9DFDB378D53B50A8DE6CBCE3 /* SpeakEasyComplete.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpeakEasyComplete.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E20184F060A67D003C662B4 /* AdaptiveLearningService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AdaptiveLearningService.swift; sourceTree = "<group>"; };
+		A144547D38E3B8E8DE40F170 /* ViewModels */ = {isa = PBXFileReference; includeInIndex = 1; path = ViewModels; sourceTree = SOURCE_ROOT; };
+		A1DCC6E00DFF07E6928FC3F9 /* Models */ = {isa = PBXFileReference; includeInIndex = 1; path = Models; sourceTree = SOURCE_ROOT; };
 		A54B8CE77C33CED56875808F /* SettingsView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		AA357E8A5F9AB10D1AB42771 /* ConversationPracticeView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ConversationPracticeView.swift; sourceTree = "<group>"; };
 		AAAA22FDFF379B8CC01CEE77 /* ConversationScenario.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ConversationScenario.swift; sourceTree = "<group>"; };
@@ -278,6 +298,8 @@
 		CA38F1D39B9EC464AE9C2770 /* StorageService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StorageService.swift; sourceTree = "<group>"; };
 		CC7D8FD004FF2EE6F4502822 /* SpeakEasyApp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SpeakEasyApp.swift; sourceTree = "<group>"; };
 		CFDBD819DE34ADEA9B841F3F /* LaunchScreenView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LaunchScreenView.swift; sourceTree = "<group>"; };
+		D10D1AC9D0CB99AABCE657E3 /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D25E21E92EBA5AE000FC634B /* SpeakEasyComplete.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpeakEasyComplete.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2F2E1245F2B0221BE1BF89D /* RealtimePracticeView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RealtimePracticeView.swift; sourceTree = "<group>"; };
 		D30696CE05853002C9E497EF /* AssessmentResultView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AssessmentResultView.swift; sourceTree = "<group>"; };
 		D441FD0DC873E288B744E848 /* MouthMask.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MouthMask.swift; sourceTree = "<group>"; };
@@ -290,6 +312,7 @@
 		DD810E814E910695A0693C1E /* ContentView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DFA4D97CF97C02080575BA44 /* VocabularyDatabase.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VocabularyDatabase.swift; sourceTree = "<group>"; };
 		E10E766A4359F8258E873A57 /* FluencyChartView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FluencyChartView.swift; sourceTree = "<group>"; };
+		E5AD1CE175E77E1D54ACEA28 /* SpeakEasyApp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SpeakEasyApp.swift; sourceTree = "<group>"; };
 		E624B438FAA54BF56B87CCFF /* VideosContentView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VideosContentView.swift; sourceTree = "<group>"; };
 		E82D9DBA755CC05D2C17BADA /* LessonListView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LessonListView.swift; sourceTree = "<group>"; };
 		E920632261F6FE684892E4BE /* Quiz.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Quiz.swift; sourceTree = "<group>"; };
@@ -297,6 +320,7 @@
 		EAF50887D95439D85A077F8D /* ScenarioPracticeView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ScenarioPracticeView.swift; sourceTree = "<group>"; };
 		EB29FDE55EAD09A36C5D6168 /* ChatMessage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ChatMessage.swift; sourceTree = "<group>"; };
 		ECDB19807FAEF21FAF5D09CA /* GuidedPracticeView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GuidedPracticeView.swift; sourceTree = "<group>"; };
+		ED266E17FD926DB076639907 /* Resources */ = {isa = PBXFileReference; includeInIndex = 1; path = Resources; sourceTree = SOURCE_ROOT; };
 		EE2C9BD8A0D8B44FD57CFCCF /* Assessment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Assessment.swift; sourceTree = "<group>"; };
 		EF8E973F02AF134269F474C9 /* AutoVoiceSettings.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AutoVoiceSettings.swift; sourceTree = "<group>"; };
 		EFA98AE3C1669527A816A7A8 /* VocabularyProgressView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VocabularyProgressView.swift; sourceTree = "<group>"; };
@@ -310,6 +334,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D25E21E82EBA5AE000FC634B /* Alamofire in Frameworks */,
+				D25E21E72EBA5AE000FC634B /* GoogleSignInSwift in Frameworks */,
+				D25E21E62EBA5AE000FC634B /* GoogleSignIn in Frameworks */,
+				D25E21E52EBA5AE000FC634B /* FirebaseAuth in Frameworks */,
+				D25E21E42EBA5AE000FC634B /* FirebaseCore in Frameworks */,
+				3232B2FCBC58A8D0CB08CD99 /* AuthenticationServices.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -322,7 +352,6 @@
 				B8CE76E5054783AFDD74A8A4 /* LoginView.swift */,
 				5508C1CD7425EC59FA4640FB /* SocialAuthButton.swift */,
 			);
-			name = Authentication;
 			path = Authentication;
 			sourceTree = "<group>";
 		};
@@ -337,7 +366,6 @@
 				B7B5A7AF2D55F8B334D4D1AD /* RealtimeVoiceViewModel.swift */,
 				35FF02EE7E49F0738D1146B5 /* UserProfileViewModel.swift */,
 			);
-			name = Controllers;
 			path = Controllers;
 			sourceTree = "<group>";
 		};
@@ -382,7 +410,6 @@
 				26D29DC4CF8E9A97A1CB4DE7 /* UserPreferences.swift */,
 				4BBA955A89E27CCA668D2E21 /* UserProfile.swift */,
 			);
-			name = Models;
 			path = Models;
 			sourceTree = "<group>";
 		};
@@ -393,7 +420,6 @@
 				A54B8CE77C33CED56875808F /* SettingsView.swift */,
 				DC1459D2D513AB32645FAF3F /* TabBarView.swift */,
 			);
-			name = Main;
 			path = Main;
 			sourceTree = "<group>";
 		};
@@ -402,7 +428,6 @@
 			children = (
 				6C150CDCF2A70D3231B99080 /* QuizView.swift */,
 			);
-			name = Quiz;
 			path = Quiz;
 			sourceTree = "<group>";
 		};
@@ -411,7 +436,6 @@
 			children = (
 				87C2C433C2FD656184A99E2C /* AppFormatters.swift */,
 			);
-			name = Utilities;
 			path = Utilities;
 			sourceTree = "<group>";
 		};
@@ -420,7 +444,6 @@
 			children = (
 				59D963F5B8F2065D6F628422 /* FluencyChallengesView.swift */,
 			);
-			name = Challenges;
 			path = Challenges;
 			sourceTree = "<group>";
 		};
@@ -444,7 +467,6 @@
 				78FC9D1AE1B55957044BA77F /* VoiceControlsView.swift */,
 				02E05C17587BF0450FEE7C49 /* VoiceWaveformView.swift */,
 			);
-			name = Practice;
 			path = Practice;
 			sourceTree = "<group>";
 		};
@@ -455,7 +477,6 @@
 				95746C4372E6BDC439E35ED7 /* LanguageSettingsView.swift */,
 				463610426F2DD72A5401DBAF /* NotificationSettingsView.swift */,
 			);
-			name = Settings;
 			path = Settings;
 			sourceTree = "<group>";
 		};
@@ -469,7 +490,6 @@
 				267852879FF259C1A351B17E /* SkillsBreakdownView.swift */,
 				EFA98AE3C1669527A816A7A8 /* VocabularyProgressView.swift */,
 			);
-			name = Progress;
 			path = Progress;
 			sourceTree = "<group>";
 		};
@@ -478,7 +498,6 @@
 			children = (
 				5F36BDCB605BDF8A10B63389 /* TabBarExtensions.swift */,
 			);
-			name = Extensions;
 			path = Extensions;
 			sourceTree = "<group>";
 		};
@@ -488,7 +507,6 @@
 				980D30D99216BEAAF09B8C83 /* GoogleService-Info.plist */,
 				0957B328061AE2C573B38780 /* Secrets.plist */,
 			);
-			name = Resources;
 			path = Resources;
 			sourceTree = "<group>";
 		};
@@ -509,7 +527,6 @@
 				906CB7E145A619FDF57FF27E /* VisemeTeacherAvatarView.swift */,
 				B8744F01656C366B9C93E66C /* WaveformView.swift */,
 			);
-			name = Components;
 			path = Components;
 			sourceTree = "<group>";
 		};
@@ -518,13 +535,13 @@
 			children = (
 				71E7501CEF0E93D834B79BE1 /* VocabularyReviewView.swift */,
 			);
-			name = Vocabulary;
 			path = Vocabulary;
 			sourceTree = "<group>";
 		};
 		9C3701AA947F9F22320A8E70 /* Products */ = {
 			isa = PBXGroup;
 			children = (
+				D25E21E92EBA5AE000FC634B /* SpeakEasyComplete.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -559,7 +576,6 @@
 				C45AA21CDC101E18F7BB2B28 /* UserProgressService.swift */,
 				F903EA9C1A72DC75F8D1AF3C /* VocabularyTrackingService.swift */,
 			);
-			name = Services;
 			path = Services;
 			sourceTree = "<group>";
 		};
@@ -568,7 +584,6 @@
 			children = (
 				646E23E14918EA674B8B2F4B /* AppTheme.swift */,
 			);
-			name = Theme;
 			path = Theme;
 			sourceTree = "<group>";
 		};
@@ -588,7 +603,6 @@
 				979357A21B76841B218E7AFF /* StoriesContentView.swift */,
 				E624B438FAA54BF56B87CCFF /* VideosContentView.swift */,
 			);
-			name = Learn;
 			path = Learn;
 			sourceTree = "<group>";
 		};
@@ -599,7 +613,6 @@
 				E82D9DBA755CC05D2C17BADA /* LessonListView.swift */,
 				0147B98A327E7B971748FAFD /* LessonView.swift */,
 			);
-			name = Lessons;
 			path = Lessons;
 			sourceTree = "<group>";
 		};
@@ -617,15 +630,25 @@
 				3212F4724B3F17D14B4DB264 /* Utilities */,
 				CC7D8FD004FF2EE6F4502822 /* SpeakEasyApp.swift */,
 				B563C33BBF3BD86104E1A238 /* Info.plist */,
+				D25E21EA2EBA5B6F00FC634B /* Frameworks */,
 				9C3701AA947F9F22320A8E70 /* Products */,
+				7AF292686C1F4D87011CD02A /* SpeakEasyComplete.entitlements */,
+				FF299B0672E9326EF25A916C /* SpeakEasyComplete */,
 			);
+			sourceTree = "<group>";
+		};
+		D25E21EA2EBA5B6F00FC634B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3A29F3EBD6D2817F1BE80D92 /* AuthenticationServices.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		DC56153F182BD2B46D7C5167 /* TalkingAvatar */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			name = TalkingAvatar;
 			path = TalkingAvatar;
 			sourceTree = "<group>";
 		};
@@ -634,7 +657,6 @@
 			children = (
 				DC56153F182BD2B46D7C5167 /* TalkingAvatar */,
 			);
-			name = Practice;
 			path = Practice;
 			sourceTree = "<group>";
 		};
@@ -645,7 +667,6 @@
 				B3765A21BC2BA1361A098D26 /* LanguageLessonContent.swift */,
 				DFA4D97CF97C02080575BA44 /* VocabularyDatabase.swift */,
 			);
-			name = Data;
 			path = Data;
 			sourceTree = "<group>";
 		};
@@ -658,7 +679,6 @@
 				7429578835FD1345FF1FE783 /* OnboardingContainerView.swift */,
 				2B35EE00D96054834C498EB7 /* OnboardingProgressView.swift */,
 			);
-			name = Onboarding;
 			path = Onboarding;
 			sourceTree = "<group>";
 		};
@@ -680,8 +700,28 @@
 				6A68947CA027A1A81AA40038 /* TeacherAvatarView.swift */,
 				8E1BCE5ED970F2A1EA4BBF15 /* Vocabulary */,
 			);
-			name = Views;
 			path = Views;
+			sourceTree = "<group>";
+		};
+		FF299B0672E9326EF25A916C /* SpeakEasyComplete */ = {
+			isa = PBXGroup;
+			children = (
+				49F87FDD04E7BE1E2A62277A /* Controllers */,
+				A1DCC6E00DFF07E6928FC3F9 /* Models */,
+				4166DFE742589A6F06631E63 /* Views */,
+				446798858A758A205C2A2813 /* Services */,
+				A144547D38E3B8E8DE40F170 /* ViewModels */,
+				860C104F71E0379C2897A1D8 /* Data */,
+				08ABDFCA6CEC8D8E149B7238 /* Extensions */,
+				12844F50E966457B3C9F9387 /* Theme */,
+				1A48AF79C020BBBC62E9FFDF /* Utilities */,
+				ED266E17FD926DB076639907 /* Resources */,
+				D10D1AC9D0CB99AABCE657E3 /* Assets.xcassets */,
+				E5AD1CE175E77E1D54ACEA28 /* SpeakEasyApp.swift */,
+				07A363E3C5D43C05D249AC04 /* Info.plist */,
+				9119B1D36CF51FE4FF88F3C6 /* SpeakEasy.entitlements */,
+			);
+			name = SpeakEasyComplete;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -700,8 +740,15 @@
 			dependencies = (
 			);
 			name = SpeakEasyComplete;
+			packageProductDependencies = (
+				6D67CE4FC14DA5C2EE3CE621 /* FirebaseCore */,
+				2E05F05C142495573263FA68 /* FirebaseAuth */,
+				A1B486E93E018D461CD947F1 /* GoogleSignIn */,
+				668F9817C77DA5A7972F7785 /* GoogleSignInSwift */,
+				C89B7E556019DECFBF7A1A7C /* Alamofire */,
+			);
 			productName = SpeakEasyComplete;
-			productReference = 9DFDB378D53B50A8DE6CBCE3 /* SpeakEasyComplete.app */;
+			productReference = D25E21E92EBA5AE000FC634B /* SpeakEasyComplete.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -722,8 +769,11 @@
 				Base,
 			);
 			mainGroup = CAD32CE8D245FE1D652A600E;
-			minimizedProjectReferenceProxies = 0;
-			preferredProjectObjectVersion = 77;
+			packageReferences = (
+				D1440E4638EB1672DFF52D81 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				8F5921DCB9B301864CBF7557 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+				6C2AB6E76282A2F6219B2EF7 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = 9C3701AA947F9F22320A8E70 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -739,6 +789,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC2648C8653C02F8F5D775ED /* Secrets.plist in Resources */,
+				33B2BC0824900B4A69D9C41F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -893,6 +944,7 @@
 				25E0152D9ED79553E855B95A /* AppTheme.swift in Sources */,
 				ADA876671BA8BDF54988ECCF /* AppFormatters.swift in Sources */,
 				1A89F4E2995884245B4A81D4 /* SpeakEasyApp.swift in Sources */,
+				702D593C30C8DDDAE008ECAD /* SpeakEasyApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1019,13 +1071,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = SpeakEasy.entitlements;
+				CODE_SIGN_ENTITLEMENTS = SpeakEasyComplete.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = E7B9UE64SF;
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.scott.speakeasy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
@@ -1042,14 +1097,17 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGNING_REQUIRED = NO;
-				CODE_SIGN_ENTITLEMENTS = SpeakEasy.entitlements;
+				CODE_SIGN_ENTITLEMENTS = SpeakEasyComplete.entitlements;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.scott.speakeasy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -1083,6 +1141,61 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		6C2AB6E76282A2F6219B2EF7 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.8.0;
+			};
+		};
+		8F5921DCB9B301864CBF7557 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+		D1440E4638EB1672DFF52D81 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2E05F05C142495573263FA68 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D1440E4638EB1672DFF52D81 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		668F9817C77DA5A7972F7785 /* GoogleSignInSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8F5921DCB9B301864CBF7557 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignInSwift;
+		};
+		6D67CE4FC14DA5C2EE3CE621 /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D1440E4638EB1672DFF52D81 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
+		A1B486E93E018D461CD947F1 /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8F5921DCB9B301864CBF7557 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+		C89B7E556019DECFBF7A1A7C /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6C2AB6E76282A2F6219B2EF7 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 731E5AEA838C71338CEE49B3 /* Project object */;
 }
