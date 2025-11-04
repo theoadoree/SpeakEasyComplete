@@ -519,7 +519,7 @@ struct GuidedExercise: Identifiable {
 
     enum ExerciseType: String {
         case listen = "Listen"
-        case repeat = "Repeat"
+        case `repeat` = "Repeat"
         case respond = "Respond"
         case practice = "Practice"
 

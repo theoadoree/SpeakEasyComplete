@@ -4,8 +4,8 @@
 
 set -e
 
-REPO_DIR="/home/$(whoami)/speakeasy"
-GITHUB_REPO="git@github.com:theoadoree/speakeasy.git"
+REPO_DIR="/home/$(whoami)/SpeakEasyComplete"
+GITHUB_REPO="git@github.com:theoadoree/SpeakEasyComplete.git"
 
 echo "🔄 Setting up auto-sync on cloud VM..."
 
@@ -36,7 +36,7 @@ git config user.email "vm@speakeasy.local"
 # Create auto-sync script
 cat > /usr/local/bin/sync-speakeasy.sh << 'EOF'
 #!/bin/bash
-REPO_DIR="/home/$(whoami)/speakeasy"
+REPO_DIR="/home/$(whoami)/SpeakEasyComplete"
 cd $REPO_DIR
 
 echo "$(date): Syncing repository..."

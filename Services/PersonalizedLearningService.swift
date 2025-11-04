@@ -114,7 +114,7 @@ class PersonalizedLearningService: ObservableObject {
     // MARK: - Content Recommendation Engine
 
     func recommendNextContent(
-        based on history: [ContentInteraction],
+        basedOn history: [ContentInteraction],
         interests: [String],
         weakAreas: [String],
         level: DifficultyLevel
