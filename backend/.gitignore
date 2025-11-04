@@ -1,0 +1,190 @@
+# Backend .gitignore - SpeakEasy
+
+# ============================================
+# 🔐 SENSITIVE FILES - NEVER COMMIT
+# ============================================
+
+# Environment variables
+.env
+.env.local
+.env.production
+.env.development
+.env.staging
+*.env
+
+# Google Cloud service account keys
+gcloud-sa-key.json
+*-sa-key.json
+service-account*.json
+serviceAccountKey.json
+
+# Firebase credentials
+firebase-adminsdk*.json
+firebase-config-*.json
+
+# Private keys
+*.pem
+*.key
+*.p8
+*.p12
+*.pfx
+*.cert
+*.crt
+private-key*
+
+# Apple credentials
+AuthKey_*.p8
+apple-auth-key.p8
+
+# Secrets directory
+secrets/
+.secrets/
+credentials/
+
+# ============================================
+# NODE.JS & NPM
+# ============================================
+
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Testing
+coverage/
+*.lcov
+.nyc_output
+
+# Build outputs
+dist/
+build/
+out/
+*.tsbuildinfo
+
+# Cache
+.npm
+.eslintcache
+.node_repl_history
+*.tgz
+.yarn-integrity
+
+# ============================================
+# LOGS
+# ============================================
+
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ============================================
+# DATABASE
+# ============================================
+
+# SQLite
+*.sqlite
+*.sqlite3
+*.db
+
+# MongoDB
+*.mongodb
+
+# PostgreSQL
+*.sql
+
+# ============================================
+# TEMPORARY FILES
+# ============================================
+
+# OS Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+*.iml
+
+# ============================================
+# PRODUCTION
+# ============================================
+
+# Production config
+production.js
+prod-config.js
+
+# Build artifacts
+*.min.js
+*.bundle.js
+
+# ============================================
+# DEVELOPMENT
+# ============================================
+
+# Local development
+.local
+local/
+dev/
+
+# Debug
+debug/
+.vscode/launch.json
+
+# ============================================
+# CLOUD DEPLOYMENT
+# ============================================
+
+# Google Cloud
+.gcloud/
+gcloud-config/
+
+# AWS
+.aws/
+*.pem
+
+# Azure
+.azure/
+
+# Heroku
+.heroku/
+
+# ============================================
+# BACKUP FILES
+# ============================================
+
+*.bak
+*.backup
+*.old
+*.orig
+
+# ============================================
+# KEEP THESE FILES
+# ============================================
+
+# Keep example files
+!.env.example
+!config.example.js
+
+# Keep documentation
+!README.md
+!*.md
+
+# Keep empty directories
+!.gitkeep

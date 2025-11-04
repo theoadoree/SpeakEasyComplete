@@ -1,0 +1,1299 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02070AEE95E155BAA25E51C8 /* AssessmentService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9567525F83770579B17D8441 /* AssessmentService.swift */; };
+		03262C5D4EAE36E4C99A758D /* TeacherAvatarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6BAC67423647EC099858C62 /* TeacherAvatarView.swift */; };
+		034B47D37C72439E10687906 /* AdaptiveLearningService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26EEE924749F75A9182FF419 /* AdaptiveLearningService.swift */; };
+		040C5273DCAAD26498F7CCE2 /* RealtimePracticeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943D4FB1F8CBDDF8C50B747A /* RealtimePracticeView.swift */; };
+		06D353B6A3AA3E82A4A6D79F /* VoiceControlsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09040F4C1593AB3CEDA0DD0 /* VoiceControlsView.swift */; };
+		08B6EC3FB629DFB9C1CA01F9 /* RealTimeAnalyticsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C2560EAC5674CFFC1134D1E /* RealTimeAnalyticsManager.swift */; };
+		096EBAC08D8D772FFDB38D73 /* LanguageFeatures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1054D13482565A243647B273 /* LanguageFeatures.swift */; };
+		0F2FA9CE9F8F3114FF9C81E5 /* AuthenticationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5128EF997A925F0B130B4C /* AuthenticationViewModel.swift */; };
+		10A31935891BABBF76848853 /* FluencyMetrics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325BA4D563EB144B25AAADFA /* FluencyMetrics.swift */; };
+		118F5215EA6DB3AEE925511B /* PersonalizedLearningService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD207CBD4662DD42C2949F2F /* PersonalizedLearningService.swift */; };
+		120B455A26289D239E9CC903 /* SpeechService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C4C31C91519D93052882537 /* SpeechService.swift */; };
+		1338875CD94BEE82507B73F5 /* LearnView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9928C4B1B99F67EB8E3F698 /* LearnView.swift */; };
+		14897F11E7D731FD50D558E3 /* StorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8171BF3A8FC556581269C52B /* StorageService.swift */; };
+		14E5449A07361F1B6976AF20 /* LessonDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B9546D2C96FEDD38DBF91C /* LessonDetailView.swift */; };
+		155AA7364D16680087C17882 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF117DB06A67E1B09A90378 /* LoginView.swift */; };
+		15613F6D1EC758CD63A7FA44 /* QuizQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = B410F7C7BFFF972327FBA0CF /* QuizQuestion.swift */; };
+		15EF89BFC95F840C494C589E /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F703221213B2A3C945D0384A /* APIService.swift */; };
+		18BB30A905795B028280BF69 /* QuizResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C505586E77DFA0A09B000D /* QuizResult.swift */; };
+		1BEA85A7A2BD490BA529F88C /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB804EB43AA8E0384ACFFC50 /* NotificationService.swift */; };
+		1C4B35762601EAF13D15846A /* ChatMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1FA18FD20E95D4C3CBB0691 /* ChatMessage.swift */; };
+		1D12672C45CF2A76CA3D7127 /* LearningContentManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0110E94E6D11BA1C839CFE2 /* LearningContentManager.swift */; };
+		204A6C4E5A973AD6753057C4 /* TabBarExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB025420F216F8EAAF733C5 /* TabBarExtensions.swift */; };
+		2165C6757267AE1E3F7EA89A /* VideosContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244B1753C990EE1AF452A29B /* VideosContentView.swift */; };
+		216FB784D5FDBC5020B9A259 /* SocialAuthButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389370F410F1BE9FF402B4E6 /* SocialAuthButton.swift */; };
+		21A8A65E0A0C1C06D1FD73FA /* AssessmentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C1C7E60244BFACF3C0AA335 /* AssessmentViewModel.swift */; };
+		2355C05F699BCB04534D083C /* FocusOnFormService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FCC7FE52D0F9C6EEB0D58C5 /* FocusOnFormService.swift */; };
+		23702C66ED2865555471DB34 /* LaunchScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B757B7E96C4DF6416FF4D6F9 /* LaunchScreenView.swift */; };
+		2417B1466CE4F991E9B612ED /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C381FB9C00B8EDAA6C119A86 /* APIService.swift */; };
+		24E60FAB67EB83A29F9B9DC2 /* OnboardingContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26B6B38057BD1D4EFCE9469 /* OnboardingContainerView.swift */; };
+		25E92F4466BEDE45FAB7BE8F /* PersonalizedLearningService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E05BB44FB664F7AD7C3FE8 /* PersonalizedLearningService.swift */; };
+		2907544D1CC6B4CDD48A7B67 /* LanguageContentDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8CC87643DDF723DBD50D1D /* LanguageContentDemoView.swift */; };
+		2B09591FD823B3618C0D7135 /* RealTimeAnalyticsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC84CE3835AA7E081D139CB7 /* RealTimeAnalyticsManager.swift */; };
+		2BECE26D69F69633CF06390D /* AutoVoiceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006CF2A2D08CBC707EF66824 /* AutoVoiceService.swift */; };
+		2BFCCDDD60F518A6F7779C71 /* AuthenticationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA024DC44F88F9320EB31DA /* AuthenticationViewModel.swift */; };
+		2DAA393FDB03138BDD066FFD /* MusicManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8039D8220B9FC15D81633E5 /* MusicManager.swift */; };
+		2DCBCC2A7FD18772007F3F5C /* VocabularyTrackingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2991F8E88E6439AF0B83E8C /* VocabularyTrackingService.swift */; };
+		2F31B82D8570B39D356840DB /* VocabularyProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6597948AF0E1897A38743F91 /* VocabularyProgressView.swift */; };
+		30448B64AF228BC8D84A4C08 /* LessonContentGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB66DA7C0F4CAA70920A57FB /* LessonContentGenerator.swift */; };
+		314A08EC6F8D18D422BF0632 /* OpenAIRealtimeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2003CF6C5C5C7C0C752486C7 /* OpenAIRealtimeService.swift */; };
+		3170A76776A79DC68B74A536 /* ConversationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668E83074CE8BE6D04CFE5B6 /* ConversationViewModel.swift */; };
+		33EF8EB324ABB47B85BF7AA9 /* LanguageSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FC1DB6EBCEE6593F190369 /* LanguageSelectionView.swift */; };
+		345530AC3A503388631309A7 /* VocabularyTrackingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8284C682BE4A49A4684A38 /* VocabularyTrackingService.swift */; };
+		347C509C3B719003B952C0AD /* VoiceComparisonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C99C2AE4FE1059B8EF6BD9F /* VoiceComparisonView.swift */; };
+		35F5BA1E7570C23A0E0995F9 /* AppFormatters.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C2A55C13BA25BBA3E1BD08 /* AppFormatters.swift */; };
+		36B5BC9D8C217E8EDA22B4AA /* SpeechService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F75FE3869F946B39D7EB752 /* SpeechService.swift */; };
+		36D57E4F5B37B3617445F626 /* TalkingAvatarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567B9CDBED4084185ADAEC94 /* TalkingAvatarView.swift */; };
+		389170644324A77C5AD8ED19 /* DifficultyLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA1BD8A1E24FD8F46BA756C /* DifficultyLevel.swift */; };
+		38917EC975F517879D0C88ED /* ScenarioPracticeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E59F10983BB2C7E7DB4A678 /* ScenarioPracticeView.swift */; };
+		3A59BBC9C17697E1926F050B /* LanguageEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10658029F7AFEAE92B154B7A /* LanguageEngine.swift */; };
+		3B75DE5C20D5397055CF66B2 /* FocusOnFormService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D87FA7748CAEA95773B7F2 /* FocusOnFormService.swift */; };
+		3C48A37D9C2708090513BA80 /* MultiLanguageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B86AFE440AF9D2851D90F7 /* MultiLanguageService.swift */; };
+		3D9868C8ACBB90BD2250F3ED /* MusicSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9AA3BB45434CA537D005C12 /* MusicSearchView.swift */; };
+		3DD30FAC1CD08CF9E1AB1173 /* Assessment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D6683197EE091112F97C87 /* Assessment.swift */; };
+		3E542ED861FA21DF29232019 /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05EDF813D79BC42BB17C76CE /* UserProfile.swift */; };
+		420F170BF03C1558D58D17E7 /* MessageBubbleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE8EC460BFCA4541BCFBB03 /* MessageBubbleView.swift */; };
+		421FE326ADEACDCE6239B551 /* WaveformView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0755189B21CE2EA4C4681B81 /* WaveformView.swift */; };
+		422C93FF591DA36780E41E60 /* ConversationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE94DBA477CBFE0A8809F466 /* ConversationViewModel.swift */; };
+		43DE70A98ADE932660D5BD0C /* MouthMask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495F08DD1253B9D825D00BFF /* MouthMask.swift */; };
+		4990BEFC89BD086DF8D7EE05 /* ResultsHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE29885299CF5388D38A044 /* ResultsHeaderView.swift */; };
+		4A7CF6E74B7220E0AB83702C /* ActiveProductionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C64D5E65253A09FBD0540A8F /* ActiveProductionService.swift */; };
+		4B65ADC96CDFF4E0F6AA2424 /* ComprehensibleInputService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBECD525555CBB0F51FDE0C9 /* ComprehensibleInputService.swift */; };
+		4C6730416C0B51915ACC09EB /* UserProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8582020255F7ECAF8EF9AD5 /* UserProfileViewModel.swift */; };
+		4CF46A6249E41F1D79C8FCD6 /* LessonsContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D01FC72E588209F74D4C93 /* LessonsContentView.swift */; };
+		4DC2BC8EEAD575E3507D30D0 /* AnimatedCheckmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F9AB6F5991905287C29EE51 /* AnimatedCheckmark.swift */; };
+		50F5C6D0CBCAC769FA388608 /* TeacherAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96FF2F6CDA62E4B12A4A5732 /* TeacherAnimationView.swift */; };
+		5293EB901F0A65F59F81532C /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = A83BCF34CCCB0A99B08580EF /* AppState.swift */; };
+		52D9CF177F603CC952743455 /* VoiceWaveformView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08073FA13A50BC5F608FA5B2 /* VoiceWaveformView.swift */; };
+		52DC4F8F813F4D2A5FEA817F /* TeacherAvatarView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46AC141CD159428165A425AB /* TeacherAvatarView2.swift */; };
+		53E8678A71A41B07952C7CA7 /* Language.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F56E85EF0E6E8D1AD178A6 /* Language.swift */; };
+		53EE89255D6958B5DFE1E591 /* AdaptiveLearningService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E36AADED7E5EAA242CB1D9C /* AdaptiveLearningService.swift */; };
+		53F397CFD8D0B1A21400C126 /* StorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF61D01BDA897A0B8239D360 /* StorageService.swift */; };
+		54CCF9A90C042EF68BCB7CB8 /* VocabularyDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E6A0DBCAD64C088DFE68D83 /* VocabularyDatabase.swift */; };
+		54F0E4ADD8BFE25413315C68 /* TeacherAvatar.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED36055205B6B47404BCDE35 /* TeacherAvatar.swift */; };
+		581BDBE9964EEAE09CF11D3C /* SpeechService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA9EA1CFD80985F8C2BC00F /* SpeechService.swift */; };
+		58BD362D7357DE03F3422AE2 /* GradientBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8317411AFD735C5345B668FF /* GradientBackground.swift */; };
+		5AD5910ADCEE7EADC9BB0CB9 /* ComprehensiveLessonData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03EA1F5C2330E244B17CDCA9 /* ComprehensiveLessonData.swift */; };
+		5D50CA73AA23156C3EA7883D /* PlaylistDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89143561E0DC2864D51A63D2 /* PlaylistDetailView.swift */; };
+		5E48B692E3DA3C2BA9CFF7C0 /* FluencyTechnique.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51108980B1846695ADDAD998 /* FluencyTechnique.swift */; };
+		61A97A82392FC03DC3B6E9E9 /* ProficiencyLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578E6AB8AFA370C190E181BC /* ProficiencyLevel.swift */; };
+		61B9DF9999A8A98A218CB3A2 /* LessonListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFA7A3B0E93A4371041F4C5 /* LessonListView.swift */; };
+		62864228006643044D237B4F /* GamificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B05F5D3A1B01C520DC3E59E /* GamificationService.swift */; };
+		631935CB69E2F7F063B7427C /* LanguageEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8F24343D88C3C69EB1AD29 /* LanguageEngine.swift */; };
+		647915AF1ACCF9DCDE00B14C /* LanguageSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD704D2FC14D3082826898FD /* LanguageSettingsView.swift */; };
+		64EEB0BB46F21F37B4EE4EC7 /* RealtimeVoiceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1553112529E1CF51DBC4B093 /* RealtimeVoiceViewModel.swift */; };
+		662099C07EA510A579B94CCC /* PersonalizedLearningService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00EE7AA06CDB133CD125FCA2 /* PersonalizedLearningService.swift */; };
+		6719CA8B7EC8F2E0A2DA417C /* LearningProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4296A4F1FDEE7F184CEBF4 /* LearningProgress.swift */; };
+		67A9C779C5034A10A516D2B7 /* OverviewDashboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FDF5DFECB413594CF3C31E7 /* OverviewDashboard.swift */; };
+		681E7F7C2CCD5CE2BAF6493C /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF14D7E12058CFC2DABA7FC /* SettingsView.swift */; };
+		691B592BF8C171195EAC9162 /* QuizViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F082652010E49274B9D754F0 /* QuizViewModel.swift */; };
+		69B0997656B1F2D200A7FF35 /* UserProgressService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B9551F8ABE5B5A02ECB4F4 /* UserProgressService.swift */; };
+		6DE88AB0C92C6E061D758654 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3E3C04EC9E201F556D02FC /* AuthService.swift */; };
+		6E66FD271A586798588033A7 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909750E378ACB6FFCCCC2C85 /* Message.swift */; };
+		71C9816AC213C801C396E945 /* UserProgressService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C867ACE3ED3C2A44BA44F4C /* UserProgressService.swift */; };
+		741858B8B10EDD923CADBD19 /* LanguageLessonContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = B44F189C32D87ECC27892DA3 /* LanguageLessonContent.swift */; };
+		74D849A909C26EEECDC00F9E /* LessonCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200017D54EE004CEA1B0F9B5 /* LessonCategory.swift */; };
+		760D87C66A2E6A27F5135A4C /* UserProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F6A68E0A8D666266BAA7C8 /* UserProfileViewModel.swift */; };
+		765195E968AC377DF230BD7B /* AppTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 119A6498A4C25D446EFB62F8 /* AppTab.swift */; };
+		7853C5A429A605C0B5D834BD /* LearningContentManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03D839C0AC32B0558CA17A8 /* LearningContentManager.swift */; };
+		7861206B7F809D78E326FD8F /* LessonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D32B0E0A2394F8F9422B775 /* LessonView.swift */; };
+		790BFAC508D2F150202F3F30 /* AppTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B15AE82C850BE464D71EBE /* AppTheme.swift */; };
+		7C46147EA4CF72681D874AA6 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E556830EAC14C7EF76CB7625 /* AuthService.swift */; };
+		7EEF7F5BDF625ACA5BD16D16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B6274D0578F5A7469FBA902 /* Assets.xcassets */; };
+		7F8B68B809A20491B5EA831B /* SpacedRepetitionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 632718D16C6E712E9104A4FB /* SpacedRepetitionService.swift */; };
+		7FA9B153220D6CDB6C0C0B00 /* AudioLevelMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E71953AC1AADF07FC5C9B2 /* AudioLevelMonitor.swift */; };
+		7FE89580D09DC6B755C3EFE5 /* PronunciationDrillingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA676BC623D806F7FF68026 /* PronunciationDrillingService.swift */; };
+		8300DF9B4EEE3ACB227ADD31 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B73A7413FFF3E82FF3E4DEB2 /* GoogleService-Info.plist */; };
+		83A28C4E23BDC8C663BFDAE5 /* UserProgressService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0EC2E0AC2B57C79E538C3BD /* UserProgressService.swift */; };
+		8516FD7155DA0BAED5975347 /* ProgressModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50853C6C52037B7E4F24496F /* ProgressModels.swift */; };
+		85DEB0DFB9E5C104C793C427 /* SpacedRepetitionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB160C4EF7C60CDFB5878B4 /* SpacedRepetitionService.swift */; };
+		86B8C1CAEB23074C5064D5C9 /* ImprovementTipsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC326798E6C66C478C56322 /* ImprovementTipsView.swift */; };
+		87AE24483DEC541B692DAB8C /* GuidedPracticeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1C018E4642F1D8D51E0AEC /* GuidedPracticeView.swift */; };
+		88E0811BADC2489BA2CC7334 /* AchievementsSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5513097E66CA042B85BCE868 /* AchievementsSection.swift */; };
+		8AC752A05A01CB57B34244D8 /* TalkingTeacherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 090B083C06EE9273473AF73C /* TalkingTeacherView.swift */; };
+		8B55FDBBEFD5C78CD86F1404 /* AutoVoiceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7131A9B77D280979D37A5230 /* AutoVoiceService.swift */; };
+		8D76D7476582EB1644EEB4EB /* SpeakEasyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27694D0892BEB601D4462ED /* SpeakEasyApp.swift */; };
+		8E94AC59EBF5CADD3C7146C5 /* PronunciationPracticeListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C81AA74BB986F98234975D /* PronunciationPracticeListView.swift */; };
+		8EA55C3A10B688DCAAC1018A /* Conversation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A001AB6DA64CA3B2B3ADC34A /* Conversation.swift */; };
+		90363B90E81AF03E1D170375 /* ActiveProductionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F66CA0BAF6C2FD696E2BC77 /* ActiveProductionService.swift */; };
+		909003C6392080514802F83F /* ConversationScenario.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13DC9109E019E2485BA449D6 /* ConversationScenario.swift */; };
+		92A28062ED365629836D93CE /* FocusOnFormService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8724C0307E37E9A21093ECC5 /* FocusOnFormService.swift */; };
+		941566804AFD09B4A4226DF1 /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D809BCCC97605E8D2EF1D06 /* ProgressView.swift */; };
+		97397E17BC60122B785F15F5 /* GrammarReferenceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E0B58E217B3BE29DF955AC /* GrammarReferenceView.swift */; };
+		9A55DA09D49041B0F90DF209 /* AutoVoiceSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A359AE591B6AC47C4D93129A /* AutoVoiceSettingsView.swift */; };
+		9D8A893C7CB6EC1C28D8BD5B /* MusicManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD7287AA62291F903735F5B /* MusicManager.swift */; };
+		9E2DC719FE4590676818B400 /* AutoVoiceSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5A76877234CC82A49E35D8 /* AutoVoiceSettings.swift */; };
+		9F7317A88FF61063748C9D83 /* LearningContentManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 579930D8D81C522C19268FB9 /* LearningContentManager.swift */; };
+		9F829CB67E598CC4C3815294 /* SongLearningView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33953339492BC99CE7A22FB1 /* SongLearningView.swift */; };
+		9FAA9543F7BF3A7580EA2B27 /* FluencyChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7939F975859D488BCAA0666 /* FluencyChartView.swift */; };
+		9FF1B8F8CBCAB1A5980ADCC2 /* MultiLanguageContentDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57CFBDC301C8460F28DDEF3 /* MultiLanguageContentDemo.swift */; };
+		A07BCC59DB34A5AC24BB7DA7 /* PracticeResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439110758A57B7950DD5AEA3 /* PracticeResultsView.swift */; };
+		A268D84F828E5B92BB331DEF /* UserPreferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9505A54B396F5A320C1F77CE /* UserPreferences.swift */; };
+		A3E25A25A959231CBF3AA6CA /* AchievementsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A510AC5795A69DA8BEF4199 /* AchievementsView.swift */; };
+		A4E66849043EF61CEF4F7EEE /* MultiLanguageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5145BAA23605B5B6C509F9E /* MultiLanguageService.swift */; };
+		A67CF02E76BC2EF534A86F80 /* MusicManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D75BBE103AB675769A277A /* MusicManager.swift */; };
+		A87767E95BCC9498CCD67F25 /* MeaningfulInteractionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89BDB893DC8DA82158DD4A67 /* MeaningfulInteractionService.swift */; };
+		A8B5019F620F6F6123C67EE4 /* ComprehensibleInputService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BFC45EC8327A748DAE30C1 /* ComprehensibleInputService.swift */; };
+		AA48E1E3E51603F6B9AEE7F0 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D76031AF0F5DF793211BC2B9 /* LoadingView.swift */; };
+		AAA0DF2D5362286B77E09C51 /* VisemeTeacherAvatarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A5AC661442EA049F5C3B67 /* VisemeTeacherAvatarView.swift */; };
+		AADED09601E7D7800D3D3F99 /* ComprehensibleInputService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918E2DC7EE7F64233DE1ABE9 /* ComprehensibleInputService.swift */; };
+		AAFCC43C2B1ECACC4CFA3742 /* AutoVoiceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0593782EAB75F88406F253FA /* AutoVoiceService.swift */; };
+		AB22F3151267FC2BB5F0B52E /* OpenAIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808206F4E711DCB5BCDAC1E2 /* OpenAIService.swift */; };
+		AC308A682F2D7233626616F7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9126793D4CD399FFF6599507 /* ContentView.swift */; };
+		B35E907022C685A602D7F714 /* QuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CADBA55BA55084F4055622A6 /* QuizView.swift */; };
+		B5CCCF07C689FDF82F05D054 /* ConversationPracticeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E2F0247EE716A2C0B6D1BA /* ConversationPracticeView.swift */; };
+		B6A9DF92478869E55608E6C5 /* PracticeSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = E310C02D706569F366EDA45E /* PracticeSession.swift */; };
+		B6CE966E724E18CC93B8945B /* OpenAIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45100E12DFBA473915DF0DF2 /* OpenAIService.swift */; };
+		B6FC0E7D82DB2C99F32F581C /* SessionMetrics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A831F58CA58E1C2B5DAFC4 /* SessionMetrics.swift */; };
+		B7022298532D04B990D9249D /* PracticeModeSelectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DE813291A58A61EFFEFE86 /* PracticeModeSelectorView.swift */; };
+		B8C3CC5B54A63D448D226361 /* RealTimeAnalyticsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9995E449DF40FE7EB3575B48 /* RealTimeAnalyticsManager.swift */; };
+		BA8C74DD1347256E30CD85EF /* OnboardingProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0585D0C661E27BB2FB316F20 /* OnboardingProgressView.swift */; };
+		BBF012364A3F7A56C6C9F920 /* NotificationPermissionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE84F18D18C251198D39451 /* NotificationPermissionView.swift */; };
+		C1FEA846DCA48B807B51E6FF /* AssessmentResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D405F645DF8B2DFCD8F110C /* AssessmentResultView.swift */; };
+		C21BFD33F6137854CEE67B04 /* LanguageEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F491F76790589BED54616C /* LanguageEngine.swift */; };
+		C6C6A8F29BB77A07C3E8814B /* ActiveProductionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5588A88869A629456C515F4 /* ActiveProductionService.swift */; };
+		C6F7E1A660E371203C10CC57 /* LessonContentGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A77E5D0DE346CE704161DAEE /* LessonContentGenerator.swift */; };
+		C76013DD54981887D3ED9654 /* InterestSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F93C03ED6001D13002CDD26 /* InterestSelectionView.swift */; };
+		C8B43B011F0CC59BB884B5A8 /* AssessmentResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2248A648D8F3DD4C10C59D9E /* AssessmentResult.swift */; };
+		C96597784DB5F3D0C673B742 /* QuizViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AFAA261B4BC4B75A3286943 /* QuizViewModel.swift */; };
+		C9730851A3EF77263DBC2377 /* GamificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79EB13B346A3CC7A101EEFD5 /* GamificationService.swift */; };
+		C9C59F446DDBF8C475C8F328 /* PronunciationDrillingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E910E460683BE3B6E589B4 /* PronunciationDrillingService.swift */; };
+		CA02854832F7B792BF8CC385 /* MetricCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E466C61825AA93868BF8FCF4 /* MetricCard.swift */; };
+		CA45796CB2C601310046B718 /* AdaptiveLearningService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FA32D49BF164AC3B54AA68 /* AdaptiveLearningService.swift */; };
+		CB261AD513F29D6B031B4050 /* PronunciationDrillingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08D0CD2A75FD9D50F3B6152 /* PronunciationDrillingService.swift */; };
+		CBFF88BC08A1514B016B2EC4 /* AssessmentRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66ECEDA71D190FD65D5CB54 /* AssessmentRequest.swift */; };
+		CD9E3067879815523E6559BB /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524D3505497D01453673B74A /* User.swift */; };
+		CFAF595A7A407AD4642665D8 /* LessonViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F5240463F6506FC08C6271B /* LessonViewModel.swift */; };
+		D043F418A3C496AA86F327E7 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C897F309B194127D11F01062 /* Cocoa.framework */; };
+		D06B3728590E39AE44134CBE /* StoriesContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C494CB9FB2883AB38A5B6EE7 /* StoriesContentView.swift */; };
+		D0EB4291DA5950D4121DDB7D /* AssessmentService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77E2FC30E23A370F1148308 /* AssessmentService.swift */; };
+		D2F36E0738D3B2DEF019D844 /* LanguageSkill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1627F738ED7F769C51FAD751 /* LanguageSkill.swift */; };
+		D531111F8EB20925244A1EE2 /* LessonContentGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A13E15AD4ED08775B24CE202 /* LessonContentGenerator.swift */; };
+		DA58CB09C9FEFC605C111268 /* VocabularyTrackingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A026728664C590FD7F6AC9A /* VocabularyTrackingService.swift */; };
+		DB6E397C0DE05C03305AF2B6 /* Quiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 716C94CCC798D2793E39B225 /* Quiz.swift */; };
+		DB8A9806C02B9D4BEE63F3DB /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26C7BB3EB6272944D65A3751 /* ErrorView.swift */; };
+		DB99C0EEB0FFAC35D4974046 /* ContentStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D1E7D41DC8B4B99F1712290 /* ContentStrategy.swift */; };
+		DE925A071FF1CD53D96A9D8E /* PracticeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA23A623A1D1E6D761AF5256 /* PracticeView.swift */; };
+		DFBE15CF0490B597F847378D /* MusicServiceConnectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B326B42603A454654E1C371F /* MusicServiceConnectView.swift */; };
+		E056273C040DCF0AB4189298 /* MusicContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38DF9F87730634C6EF1498E /* MusicContentView.swift */; };
+		E0C6666FD7F95D7F52C68AC1 /* MultiLanguageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0891908CF2BFBB74B5AA24AD /* MultiLanguageService.swift */; };
+		E15C60DEB7B310E8274CAD52 /* Lesson.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F37981F7C60FF2EE548313 /* Lesson.swift */; };
+		E31CA45E9A901B630B3A51E1 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9E6FD3F680758D223C78C2E /* TabBarView.swift */; };
+		E43C3DC560783E5A15009F75 /* SkillsBreakdownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F52527F9AE265DF47A3D3F /* SkillsBreakdownView.swift */; };
+		E5924EFF6D23D5F2C8BB56C6 /* NotificationSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF43304A7EB491AF04227996 /* NotificationSettingsView.swift */; };
+		E728CCACFCDCA83DE2CA1926 /* VocabularyReviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BCCA66CC65295DE95F87904 /* VocabularyReviewView.swift */; };
+		E919A820DBFDA3371D8C53A6 /* FeedbackSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1B93CB40A6DB3DCE13EE16 /* FeedbackSection.swift */; };
+		E9DF3BE5B3FA3171D9C70DCD /* GamificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A2B4B3466D42FA4DDA95F1 /* GamificationService.swift */; };
+		EC5BFDBDA8B8EC74F7AE8E0E /* MeaningfulInteractionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1566C19125AD20756041853C /* MeaningfulInteractionService.swift */; };
+		ECADE171F2D6B11C34C06798 /* OpenAIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66F6C6EEF34B947572B5106 /* OpenAIService.swift */; };
+		ECC43AFFECB608C70978A994 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF85FC269174474934FB3AC /* APIService.swift */; };
+		EE8326A3520D3DD08F9C316E /* MeaningfulInteractionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A996BAC7C7AD19D555ED25 /* MeaningfulInteractionService.swift */; };
+		EF548942BD9EC508AC7786EC /* AssessmentService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6442A80588758101BC6FD6B8 /* AssessmentService.swift */; };
+		EF7068108D0BC95E6ABD72B7 /* StorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A108B89C0D330877800B0F3 /* StorageService.swift */; };
+		F00051F922A9C1EB56DB5478 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F0340B9DEBAE66B598AF21 /* NotificationService.swift */; };
+		F04901EB57C6E7BD8C53B8DF /* ChatTranscriptView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1706E87CAD9DB34135ABB878 /* ChatTranscriptView.swift */; };
+		F076FE5B089F269CCA0738F9 /* LessonViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2402E51C1FB42FFD6262A74E /* LessonViewModel.swift */; };
+		F0BC404D37372D51589A984F /* AssessmentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 803CA7CE1324911F483DCE93 /* AssessmentViewModel.swift */; };
+		F151E02BF11B535025026AE9 /* SpacedRepetitionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36205A6C9147C3252C209E4A /* SpacedRepetitionService.swift */; };
+		F2CD40036C6FF94A5F260325 /* ConversationFeedback.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180A7B1BC4E833917D5152C7 /* ConversationFeedback.swift */; };
+		F2DC68D39A4FD47E974F0176 /* ReviewSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6A16DA38AB296818F6F6CF /* ReviewSection.swift */; };
+		F69CAC30E132A90519A29456 /* FluencyChallengesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37317841BA61B8F740601D27 /* FluencyChallengesView.swift */; };
+		F94459FD95F00472BD4E2400 /* PronunciationCoachView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F959479B07B1B1A289BF23A /* PronunciationCoachView.swift */; };
+		FB40E0D52E5827724A0B2B4F /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006C00C09A73745588FE522B /* NotificationService.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		006C00C09A73745588FE522B /* NotificationService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NotificationService.swift; path = Views/Components/NotificationService.swift; sourceTree = "<group>"; };
+		006CF2A2D08CBC707EF66824 /* AutoVoiceService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AutoVoiceService.swift; path = Views/Components/AutoVoiceService.swift; sourceTree = "<group>"; };
+		00EE7AA06CDB133CD125FCA2 /* PersonalizedLearningService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PersonalizedLearningService.swift; path = Views/Components/PersonalizedLearningService.swift; sourceTree = "<group>"; };
+		01A5AC661442EA049F5C3B67 /* VisemeTeacherAvatarView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VisemeTeacherAvatarView.swift; path = Views/Components/VisemeTeacherAvatarView.swift; sourceTree = "<group>"; };
+		03EA1F5C2330E244B17CDCA9 /* ComprehensiveLessonData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ComprehensiveLessonData.swift; path = Data/ComprehensiveLessonData.swift; sourceTree = "<group>"; };
+		0585D0C661E27BB2FB316F20 /* OnboardingProgressView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OnboardingProgressView.swift; path = Views/Onboarding/OnboardingProgressView.swift; sourceTree = "<group>"; };
+		0593782EAB75F88406F253FA /* AutoVoiceService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AutoVoiceService.swift; path = Controllers/AutoVoiceService.swift; sourceTree = "<group>"; };
+		05EDF813D79BC42BB17C76CE /* UserProfile.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UserProfile.swift; path = Models/UserProfile.swift; sourceTree = "<group>"; };
+		0755189B21CE2EA4C4681B81 /* WaveformView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WaveformView.swift; path = Views/Components/WaveformView.swift; sourceTree = "<group>"; };
+		08073FA13A50BC5F608FA5B2 /* VoiceWaveformView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VoiceWaveformView.swift; path = Views/Practice/VoiceWaveformView.swift; sourceTree = "<group>"; };
+		0891908CF2BFBB74B5AA24AD /* MultiLanguageService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultiLanguageService.swift; path = Views/Components/MultiLanguageService.swift; sourceTree = "<group>"; };
+		090B083C06EE9273473AF73C /* TalkingTeacherView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TalkingTeacherView.swift; path = Models/TalkingTeacherView.swift; sourceTree = "<group>"; };
+		0C1C7E60244BFACF3C0AA335 /* AssessmentViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AssessmentViewModel.swift; path = Controllers/AssessmentViewModel.swift; sourceTree = "<group>"; };
+		0C4C31C91519D93052882537 /* SpeechService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpeechService.swift; path = Services/SpeechService.swift; sourceTree = "<group>"; };
+		0D32B0E0A2394F8F9422B775 /* LessonView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LessonView.swift; path = Views/Lessons/LessonView.swift; sourceTree = "<group>"; };
+		0D405F645DF8B2DFCD8F110C /* AssessmentResultView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AssessmentResultView.swift; path = Views/Practice/AssessmentResultView.swift; sourceTree = "<group>"; };
+		0D809BCCC97605E8D2EF1D06 /* ProgressView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ProgressView.swift; path = Views/Progress/ProgressView.swift; sourceTree = "<group>"; };
+		0DA676BC623D806F7FF68026 /* PronunciationDrillingService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PronunciationDrillingService.swift; path = Controllers/PronunciationDrillingService.swift; sourceTree = "<group>"; };
+		0F9AB6F5991905287C29EE51 /* AnimatedCheckmark.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimatedCheckmark.swift; path = Views/Components/AnimatedCheckmark.swift; sourceTree = "<group>"; };
+		1054D13482565A243647B273 /* LanguageFeatures.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LanguageFeatures.swift; path = Models/LanguageFeatures.swift; sourceTree = "<group>"; };
+		10658029F7AFEAE92B154B7A /* LanguageEngine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LanguageEngine.swift; path = Services/LanguageEngine.swift; sourceTree = "<group>"; };
+		10B9551F8ABE5B5A02ECB4F4 /* UserProgressService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UserProgressService.swift; path = Views/Components/UserProgressService.swift; sourceTree = "<group>"; };
+		10F0340B9DEBAE66B598AF21 /* NotificationService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NotificationService.swift; path = Controllers/NotificationService.swift; sourceTree = "<group>"; };
+		119A6498A4C25D446EFB62F8 /* AppTab.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AppTab.swift; path = Models/AppTab.swift; sourceTree = "<group>"; };
+		13DC9109E019E2485BA449D6 /* ConversationScenario.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConversationScenario.swift; path = Models/ConversationScenario.swift; sourceTree = "<group>"; };
+		13F6A68E0A8D666266BAA7C8 /* UserProfileViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UserProfileViewModel.swift; path = Controllers/UserProfileViewModel.swift; sourceTree = "<group>"; };
+		1462DE56051DA5604DDCFDCE /* ChatTranscriptView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChatTranscriptView.swift; path = Views/Components/ChatTranscriptView.swift; sourceTree = "<group>"; };
+		1553112529E1CF51DBC4B093 /* RealtimeVoiceViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RealtimeVoiceViewModel.swift; path = Controllers/RealtimeVoiceViewModel.swift; sourceTree = "<group>"; };
+		1566C19125AD20756041853C /* MeaningfulInteractionService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MeaningfulInteractionService.swift; path = Controllers/MeaningfulInteractionService.swift; sourceTree = "<group>"; };
+		1627F738ED7F769C51FAD751 /* LanguageSkill.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LanguageSkill.swift; path = Models/LanguageSkill.swift; sourceTree = "<group>"; };
+		1706E87CAD9DB34135ABB878 /* ChatTranscriptView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChatTranscriptView.swift; path = Views/Components/ChatTranscriptView.swift; sourceTree = "<group>"; };
+		17B86AFE440AF9D2851D90F7 /* MultiLanguageService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultiLanguageService.swift; path = Services/MultiLanguageService.swift; sourceTree = "<group>"; };
+		180A7B1BC4E833917D5152C7 /* ConversationFeedback.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConversationFeedback.swift; path = Models/ConversationFeedback.swift; sourceTree = "<group>"; };
+		18B15AE82C850BE464D71EBE /* AppTheme.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AppTheme.swift; path = Theme/AppTheme.swift; sourceTree = "<group>"; };
+		1AA1BD8A1E24FD8F46BA756C /* DifficultyLevel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DifficultyLevel.swift; path = Models/DifficultyLevel.swift; sourceTree = "<group>"; };
+		1E5E3094A4AFD1756E4A32C5 /* ChatMessage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChatMessage.swift; path = Models/ChatMessage.swift; sourceTree = "<group>"; };
+		200017D54EE004CEA1B0F9B5 /* LessonCategory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LessonCategory.swift; path = Models/LessonCategory.swift; sourceTree = "<group>"; };
+		2003CF6C5C5C7C0C752486C7 /* OpenAIRealtimeService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OpenAIRealtimeService.swift; path = Services/OpenAIRealtimeService.swift; sourceTree = "<group>"; };
+		2248A648D8F3DD4C10C59D9E /* AssessmentResult.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AssessmentResult.swift; path = Models/AssessmentResult.swift; sourceTree = "<group>"; };
+		2402E51C1FB42FFD6262A74E /* LessonViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LessonViewModel.swift; path = Controllers/LessonViewModel.swift; sourceTree = "<group>"; };
+		244B1753C990EE1AF452A29B /* VideosContentView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VideosContentView.swift; path = Views/Learn/VideosContentView.swift; sourceTree = "<group>"; };
+		26C7BB3EB6272944D65A3751 /* ErrorView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ErrorView.swift; path = Views/Components/ErrorView.swift; sourceTree = "<group>"; };
+		26EEE924749F75A9182FF419 /* AdaptiveLearningService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AdaptiveLearningService.swift; path = Views/Components/AdaptiveLearningService.swift; sourceTree = "<group>"; };
+		26FC1DB6EBCEE6593F190369 /* LanguageSelectionView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LanguageSelectionView.swift; path = Views/Onboarding/LanguageSelectionView.swift; sourceTree = "<group>"; };
+		29015B6DA99BB039D0B3DED4 /* RealtimePracticeView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RealtimePracticeView.swift; path = Views/Practice/RealtimePracticeView.swift; sourceTree = "<group>"; };
+		2A026728664C590FD7F6AC9A /* VocabularyTrackingService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VocabularyTrackingService.swift; path = Views/Components/VocabularyTrackingService.swift; sourceTree = "<group>"; };
+		2A8CC87643DDF723DBD50D1D /* LanguageContentDemoView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LanguageContentDemoView.swift; path = Views/Learn/LanguageContentDemoView.swift; sourceTree = "<group>"; };
+		2AFAA261B4BC4B75A3286943 /* QuizViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QuizViewModel.swift; path = Controllers/QuizViewModel.swift; sourceTree = "<group>"; };
+		2B6274D0578F5A7469FBA902 /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2B8F24343D88C3C69EB1AD29 /* LanguageEngine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LanguageEngine.swift; path = Controllers/LanguageEngine.swift; sourceTree = "<group>"; };
+		2E36AADED7E5EAA242CB1D9C /* AdaptiveLearningService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AdaptiveLearningService.swift; path = Services/AdaptiveLearningService.swift; sourceTree = "<group>"; };
+		325BA4D563EB144B25AAADFA /* FluencyMetrics.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FluencyMetrics.swift; path = Models/FluencyMetrics.swift; sourceTree = "<group>"; };
+		33953339492BC99CE7A22FB1 /* SongLearningView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SongLearningView.swift; path = Views/Learn/SongLearningView.swift; sourceTree = "<group>"; };
+		34DE813291A58A61EFFEFE86 /* PracticeModeSelectorView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PracticeModeSelectorView.swift; path = Views/Practice/PracticeModeSelectorView.swift; sourceTree = "<group>"; };
+		36205A6C9147C3252C209E4A /* SpacedRepetitionService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpacedRepetitionService.swift; path = Controllers/SpacedRepetitionService.swift; sourceTree = "<group>"; };
+		37317841BA61B8F740601D27 /* FluencyChallengesView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FluencyChallengesView.swift; path = Views/Challenges/FluencyChallengesView.swift; sourceTree = "<group>"; };
+		389370F410F1BE9FF402B4E6 /* SocialAuthButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocialAuthButton.swift; path = Views/Authentication/SocialAuthButton.swift; sourceTree = "<group>"; };
+		38E71953AC1AADF07FC5C9B2 /* AudioLevelMonitor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AudioLevelMonitor.swift; path = Models/AudioLevelMonitor.swift; sourceTree = "<group>"; };
+		3E6A0DBCAD64C088DFE68D83 /* VocabularyDatabase.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VocabularyDatabase.swift; path = Data/VocabularyDatabase.swift; sourceTree = "<group>"; };
+		3F66CA0BAF6C2FD696E2BC77 /* ActiveProductionService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActiveProductionService.swift; path = Views/Components/ActiveProductionService.swift; sourceTree = "<group>"; };
+		41A831F58CA58E1C2B5DAFC4 /* SessionMetrics.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionMetrics.swift; path = Models/SessionMetrics.swift; sourceTree = "<group>"; };
+		439110758A57B7950DD5AEA3 /* PracticeResultsView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PracticeResultsView.swift; path = Views/Practice/PracticeResultsView.swift; sourceTree = "<group>"; };
+		45100E12DFBA473915DF0DF2 /* OpenAIService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OpenAIService.swift; path = Controllers/OpenAIService.swift; sourceTree = "<group>"; };
+		46AC141CD159428165A425AB /* TeacherAvatarView2.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TeacherAvatarView2.swift; path = Models/TeacherAvatarView2.swift; sourceTree = "<group>"; };
+		48C505586E77DFA0A09B000D /* QuizResult.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QuizResult.swift; path = Models/QuizResult.swift; sourceTree = "<group>"; };
+		495F08DD1253B9D825D00BFF /* MouthMask.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MouthMask.swift; path = Models/MouthMask.swift; sourceTree = "<group>"; };
+		4BF14D7E12058CFC2DABA7FC /* SettingsView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SettingsView.swift; path = Views/Main/SettingsView.swift; sourceTree = "<group>"; };
+		4C1B93CB40A6DB3DCE13EE16 /* FeedbackSection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FeedbackSection.swift; path = Views/Components/FeedbackSection.swift; sourceTree = "<group>"; };
+		4C8284C682BE4A49A4684A38 /* VocabularyTrackingService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VocabularyTrackingService.swift; path = Services/VocabularyTrackingService.swift; sourceTree = "<group>"; };
+		4C867ACE3ED3C2A44BA44F4C /* UserProgressService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UserProgressService.swift; path = Controllers/UserProgressService.swift; sourceTree = "<group>"; };
+		4F93C03ED6001D13002CDD26 /* InterestSelectionView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InterestSelectionView.swift; path = Views/Onboarding/InterestSelectionView.swift; sourceTree = "<group>"; };
+		50853C6C52037B7E4F24496F /* ProgressModels.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ProgressModels.swift; path = Models/ProgressModels.swift; sourceTree = "<group>"; };
+		51108980B1846695ADDAD998 /* FluencyTechnique.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FluencyTechnique.swift; path = Models/FluencyTechnique.swift; sourceTree = "<group>"; };
+		524D3505497D01453673B74A /* User.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = User.swift; path = Models/User.swift; sourceTree = "<group>"; };
+		5513097E66CA042B85BCE868 /* AchievementsSection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AchievementsSection.swift; path = Views/Components/AchievementsSection.swift; sourceTree = "<group>"; };
+		567B9CDBED4084185ADAEC94 /* TalkingAvatarView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TalkingAvatarView.swift; path = Views/Practice/TalkingAvatarView.swift; sourceTree = "<group>"; };
+		578E6AB8AFA370C190E181BC /* ProficiencyLevel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ProficiencyLevel.swift; path = Models/ProficiencyLevel.swift; sourceTree = "<group>"; };
+		579930D8D81C522C19268FB9 /* LearningContentManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LearningContentManager.swift; path = Views/Components/LearningContentManager.swift; sourceTree = "<group>"; };
+		5B05F5D3A1B01C520DC3E59E /* GamificationService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GamificationService.swift; path = Views/Components/GamificationService.swift; sourceTree = "<group>"; };
+		5D1E7D41DC8B4B99F1712290 /* ContentStrategy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContentStrategy.swift; path = Models/ContentStrategy.swift; sourceTree = "<group>"; };
+		632718D16C6E712E9104A4FB /* SpacedRepetitionService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpacedRepetitionService.swift; path = Services/SpacedRepetitionService.swift; sourceTree = "<group>"; };
+		6442A80588758101BC6FD6B8 /* AssessmentService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AssessmentService.swift; path = Controllers/AssessmentService.swift; sourceTree = "<group>"; };
+		6597948AF0E1897A38743F91 /* VocabularyProgressView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VocabularyProgressView.swift; path = Views/Progress/VocabularyProgressView.swift; sourceTree = "<group>"; };
+		668E83074CE8BE6D04CFE5B6 /* ConversationViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConversationViewModel.swift; path = Views/Components/ConversationViewModel.swift; sourceTree = "<group>"; };
+		68D6683197EE091112F97C87 /* Assessment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Assessment.swift; path = Models/Assessment.swift; sourceTree = "<group>"; };
+		69A996BAC7C7AD19D555ED25 /* MeaningfulInteractionService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MeaningfulInteractionService.swift; path = Views/Components/MeaningfulInteractionService.swift; sourceTree = "<group>"; };
+		6AF85FC269174474934FB3AC /* APIService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = APIService.swift; path = Views/Components/APIService.swift; sourceTree = "<group>"; };
+		6BCCA66CC65295DE95F87904 /* VocabularyReviewView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VocabularyReviewView.swift; path = Views/Vocabulary/VocabularyReviewView.swift; sourceTree = "<group>"; };
+		6FCC7FE52D0F9C6EEB0D58C5 /* FocusOnFormService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FocusOnFormService.swift; path = Services/FocusOnFormService.swift; sourceTree = "<group>"; };
+		7131A9B77D280979D37A5230 /* AutoVoiceService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AutoVoiceService.swift; path = Services/AutoVoiceService.swift; sourceTree = "<group>"; };
+		716C94CCC798D2793E39B225 /* Quiz.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Quiz.swift; path = Models/Quiz.swift; sourceTree = "<group>"; };
+		79EB13B346A3CC7A101EEFD5 /* GamificationService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GamificationService.swift; path = Services/GamificationService.swift; sourceTree = "<group>"; };
+		7AE29885299CF5388D38A044 /* ResultsHeaderView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResultsHeaderView.swift; path = Views/Components/ResultsHeaderView.swift; sourceTree = "<group>"; };
+		7B1C018E4642F1D8D51E0AEC /* GuidedPracticeView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GuidedPracticeView.swift; path = Views/Practice/GuidedPracticeView.swift; sourceTree = "<group>"; };
+		7C2560EAC5674CFFC1134D1E /* RealTimeAnalyticsManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RealTimeAnalyticsManager.swift; path = Controllers/RealTimeAnalyticsManager.swift; sourceTree = "<group>"; };
+		7C99C2AE4FE1059B8EF6BD9F /* VoiceComparisonView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VoiceComparisonView.swift; path = Views/Practice/VoiceComparisonView.swift; sourceTree = "<group>"; };
+		7F959479B07B1B1A289BF23A /* PronunciationCoachView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PronunciationCoachView.swift; path = Views/Practice/PronunciationCoachView.swift; sourceTree = "<group>"; };
+		7FDF5DFECB413594CF3C31E7 /* OverviewDashboard.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OverviewDashboard.swift; path = Views/Progress/OverviewDashboard.swift; sourceTree = "<group>"; };
+		803CA7CE1324911F483DCE93 /* AssessmentViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AssessmentViewModel.swift; path = Views/Components/AssessmentViewModel.swift; sourceTree = "<group>"; };
+		808206F4E711DCB5BCDAC1E2 /* OpenAIService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OpenAIService.swift; path = Services/OpenAIService.swift; sourceTree = "<group>"; };
+		80BFC45EC8327A748DAE30C1 /* ComprehensibleInputService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ComprehensibleInputService.swift; path = Services/ComprehensibleInputService.swift; sourceTree = "<group>"; };
+		8171BF3A8FC556581269C52B /* StorageService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StorageService.swift; path = Controllers/StorageService.swift; sourceTree = "<group>"; };
+		8317411AFD735C5345B668FF /* GradientBackground.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GradientBackground.swift; path = Views/Components/GradientBackground.swift; sourceTree = "<group>"; };
+		8724C0307E37E9A21093ECC5 /* FocusOnFormService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FocusOnFormService.swift; path = Views/Components/FocusOnFormService.swift; sourceTree = "<group>"; };
+		89143561E0DC2864D51A63D2 /* PlaylistDetailView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PlaylistDetailView.swift; path = Views/Learn/PlaylistDetailView.swift; sourceTree = "<group>"; };
+		89BDB893DC8DA82158DD4A67 /* MeaningfulInteractionService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MeaningfulInteractionService.swift; path = Services/MeaningfulInteractionService.swift; sourceTree = "<group>"; };
+		8A108B89C0D330877800B0F3 /* StorageService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StorageService.swift; path = Services/StorageService.swift; sourceTree = "<group>"; };
+		8E263CCD3AC3609B0D599C43 /* VisemeTeacherAvatarView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VisemeTeacherAvatarView.swift; path = Views/Components/VisemeTeacherAvatarView.swift; sourceTree = "<group>"; };
+		8E59F10983BB2C7E7DB4A678 /* ScenarioPracticeView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ScenarioPracticeView.swift; path = Views/Practice/ScenarioPracticeView.swift; sourceTree = "<group>"; };
+		8F5240463F6506FC08C6271B /* LessonViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LessonViewModel.swift; path = Views/Components/LessonViewModel.swift; sourceTree = "<group>"; };
+		909750E378ACB6FFCCCC2C85 /* Message.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Message.swift; path = Models/Message.swift; sourceTree = "<group>"; };
+		9126793D4CD399FFF6599507 /* ContentView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = Views/Main/ContentView.swift; sourceTree = "<group>"; };
+		918E2DC7EE7F64233DE1ABE9 /* ComprehensibleInputService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ComprehensibleInputService.swift; path = Views/Components/ComprehensibleInputService.swift; sourceTree = "<group>"; };
+		91F52527F9AE265DF47A3D3F /* SkillsBreakdownView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SkillsBreakdownView.swift; path = Views/Progress/SkillsBreakdownView.swift; sourceTree = "<group>"; };
+		91FA32D49BF164AC3B54AA68 /* AdaptiveLearningService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AdaptiveLearningService.swift; path = Controllers/AdaptiveLearningService.swift; sourceTree = "<group>"; };
+		926297B0AB26CB26F1918029 /* Secrets.plist.example */ = {isa = PBXFileReference; includeInIndex = 1; name = Secrets.plist.example; path = Resources/Secrets.plist.example; sourceTree = "<group>"; };
+		92B0D6B0470A5E4676E119F3 /* Secrets.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Secrets.plist; path = Resources/Secrets.plist; sourceTree = "<group>"; };
+		93A2B4B3466D42FA4DDA95F1 /* GamificationService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GamificationService.swift; path = Controllers/GamificationService.swift; sourceTree = "<group>"; };
+		943D4FB1F8CBDDF8C50B747A /* RealtimePracticeView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RealtimePracticeView.swift; path = Views/Practice/RealtimePracticeView.swift; sourceTree = "<group>"; };
+		9505A54B396F5A320C1F77CE /* UserPreferences.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UserPreferences.swift; path = Models/UserPreferences.swift; sourceTree = "<group>"; };
+		9567525F83770579B17D8441 /* AssessmentService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AssessmentService.swift; path = Views/Components/AssessmentService.swift; sourceTree = "<group>"; };
+		96FF2F6CDA62E4B12A4A5732 /* TeacherAnimationView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TeacherAnimationView.swift; path = Views/Practice/TeacherAnimationView.swift; sourceTree = "<group>"; };
+		9995E449DF40FE7EB3575B48 /* RealTimeAnalyticsManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RealTimeAnalyticsManager.swift; path = Views/Components/RealTimeAnalyticsManager.swift; sourceTree = "<group>"; };
+		9A510AC5795A69DA8BEF4199 /* AchievementsView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AchievementsView.swift; path = Views/Progress/AchievementsView.swift; sourceTree = "<group>"; };
+		9DFDB378D53B50A8DE6CBCE3 /* SpeakEasyComplete.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpeakEasyComplete.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F75FE3869F946B39D7EB752 /* SpeechService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpeechService.swift; path = Controllers/SpeechService.swift; sourceTree = "<group>"; };
+		9FA024DC44F88F9320EB31DA /* AuthenticationViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AuthenticationViewModel.swift; path = Views/Components/AuthenticationViewModel.swift; sourceTree = "<group>"; };
+		9FD7287AA62291F903735F5B /* MusicManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MusicManager.swift; path = Services/MusicManager.swift; sourceTree = "<group>"; };
+		A001AB6DA64CA3B2B3ADC34A /* Conversation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Conversation.swift; path = Models/Conversation.swift; sourceTree = "<group>"; };
+		A03D839C0AC32B0558CA17A8 /* LearningContentManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LearningContentManager.swift; path = Services/LearningContentManager.swift; sourceTree = "<group>"; };
+		A13E15AD4ED08775B24CE202 /* LessonContentGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LessonContentGenerator.swift; path = Views/Components/LessonContentGenerator.swift; sourceTree = "<group>"; };
+		A27694D0892BEB601D4462ED /* SpeakEasyApp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SpeakEasyApp.swift; sourceTree = "<group>"; };
+		A2D01FC72E588209F74D4C93 /* LessonsContentView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LessonsContentView.swift; path = Views/Learn/LessonsContentView.swift; sourceTree = "<group>"; };
+		A359AE591B6AC47C4D93129A /* AutoVoiceSettingsView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AutoVoiceSettingsView.swift; path = Views/Settings/AutoVoiceSettingsView.swift; sourceTree = "<group>"; };
+		A5145BAA23605B5B6C509F9E /* MultiLanguageService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultiLanguageService.swift; path = Controllers/MultiLanguageService.swift; sourceTree = "<group>"; };
+		A5C2A55C13BA25BBA3E1BD08 /* AppFormatters.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AppFormatters.swift; path = Utilities/AppFormatters.swift; sourceTree = "<group>"; };
+		A6D75BBE103AB675769A277A /* MusicManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MusicManager.swift; path = Controllers/MusicManager.swift; sourceTree = "<group>"; };
+		A77E5D0DE346CE704161DAEE /* LessonContentGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LessonContentGenerator.swift; path = Services/LessonContentGenerator.swift; sourceTree = "<group>"; };
+		A83BCF34CCCB0A99B08580EF /* AppState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AppState.swift; path = Models/AppState.swift; sourceTree = "<group>"; };
+		AA23A623A1D1E6D761AF5256 /* PracticeView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PracticeView.swift; path = Views/Practice/PracticeView.swift; sourceTree = "<group>"; };
+		AE94DBA477CBFE0A8809F466 /* ConversationViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConversationViewModel.swift; path = Controllers/ConversationViewModel.swift; sourceTree = "<group>"; };
+		AEC326798E6C66C478C56322 /* ImprovementTipsView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImprovementTipsView.swift; path = Views/Components/ImprovementTipsView.swift; sourceTree = "<group>"; };
+		AEE84F18D18C251198D39451 /* NotificationPermissionView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NotificationPermissionView.swift; path = Views/Onboarding/NotificationPermissionView.swift; sourceTree = "<group>"; };
+		AEFA7A3B0E93A4371041F4C5 /* LessonListView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LessonListView.swift; path = Views/Lessons/LessonListView.swift; sourceTree = "<group>"; };
+		AF43304A7EB491AF04227996 /* NotificationSettingsView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NotificationSettingsView.swift; path = Views/Settings/NotificationSettingsView.swift; sourceTree = "<group>"; };
+		B326B42603A454654E1C371F /* MusicServiceConnectView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MusicServiceConnectView.swift; path = Views/Learn/MusicServiceConnectView.swift; sourceTree = "<group>"; };
+		B38DF9F87730634C6EF1498E /* MusicContentView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MusicContentView.swift; path = Views/Learn/MusicContentView.swift; sourceTree = "<group>"; };
+		B3D87FA7748CAEA95773B7F2 /* FocusOnFormService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FocusOnFormService.swift; path = Controllers/FocusOnFormService.swift; sourceTree = "<group>"; };
+		B410F7C7BFFF972327FBA0CF /* QuizQuestion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QuizQuestion.swift; path = Models/QuizQuestion.swift; sourceTree = "<group>"; };
+		B44F189C32D87ECC27892DA3 /* LanguageLessonContent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LanguageLessonContent.swift; path = Data/LanguageLessonContent.swift; sourceTree = "<group>"; };
+		B4A14CAC63D4B939772D2831 /* GoogleService-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "Resources/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B66ECEDA71D190FD65D5CB54 /* AssessmentRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AssessmentRequest.swift; path = Models/AssessmentRequest.swift; sourceTree = "<group>"; };
+		B66F6C6EEF34B947572B5106 /* OpenAIService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OpenAIService.swift; path = Views/Components/OpenAIService.swift; sourceTree = "<group>"; };
+		B6F491F76790589BED54616C /* LanguageEngine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LanguageEngine.swift; path = Views/Components/LanguageEngine.swift; sourceTree = "<group>"; };
+		B73A7413FFF3E82FF3E4DEB2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B757B7E96C4DF6416FF4D6F9 /* LaunchScreenView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LaunchScreenView.swift; path = Views/LaunchScreenView.swift; sourceTree = "<group>"; };
+		B9E6FD3F680758D223C78C2E /* TabBarView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TabBarView.swift; path = Views/Main/TabBarView.swift; sourceTree = "<group>"; };
+		BA4296A4F1FDEE7F184CEBF4 /* LearningProgress.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LearningProgress.swift; path = Models/LearningProgress.swift; sourceTree = "<group>"; };
+		BA6A16DA38AB296818F6F6CF /* ReviewSection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReviewSection.swift; path = Views/Progress/ReviewSection.swift; sourceTree = "<group>"; };
+		BAB7618E43474B14E79C9DF7 /* WaveformView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WaveformView.swift; path = Views/Components/WaveformView.swift; sourceTree = "<group>"; };
+		BB66DA7C0F4CAA70920A57FB /* LessonContentGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LessonContentGenerator.swift; path = Controllers/LessonContentGenerator.swift; sourceTree = "<group>"; };
+		BBECD525555CBB0F51FDE0C9 /* ComprehensibleInputService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ComprehensibleInputService.swift; path = Controllers/ComprehensibleInputService.swift; sourceTree = "<group>"; };
+		BD704D2FC14D3082826898FD /* LanguageSettingsView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LanguageSettingsView.swift; path = Views/Settings/LanguageSettingsView.swift; sourceTree = "<group>"; };
+		C08D0CD2A75FD9D50F3B6152 /* PronunciationDrillingService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PronunciationDrillingService.swift; path = Views/Components/PronunciationDrillingService.swift; sourceTree = "<group>"; };
+		C09040F4C1593AB3CEDA0DD0 /* VoiceControlsView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VoiceControlsView.swift; path = Views/Practice/VoiceControlsView.swift; sourceTree = "<group>"; };
+		C0EC2E0AC2B57C79E538C3BD /* UserProgressService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UserProgressService.swift; path = Services/UserProgressService.swift; sourceTree = "<group>"; };
+		C2B32FB2D8262C41DDCCD885 /* RealtimeVoiceViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RealtimeVoiceViewModel.swift; path = Controllers/RealtimeVoiceViewModel.swift; sourceTree = "<group>"; };
+		C2E2F0247EE716A2C0B6D1BA /* ConversationPracticeView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConversationPracticeView.swift; path = Views/Practice/ConversationPracticeView.swift; sourceTree = "<group>"; };
+		C381FB9C00B8EDAA6C119A86 /* APIService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = APIService.swift; path = Services/APIService.swift; sourceTree = "<group>"; };
+		C494CB9FB2883AB38A5B6EE7 /* StoriesContentView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StoriesContentView.swift; path = Views/Learn/StoriesContentView.swift; sourceTree = "<group>"; };
+		C4E0B58E217B3BE29DF955AC /* GrammarReferenceView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GrammarReferenceView.swift; path = Views/Learn/GrammarReferenceView.swift; sourceTree = "<group>"; };
+		C64D5E65253A09FBD0540A8F /* ActiveProductionService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActiveProductionService.swift; path = Controllers/ActiveProductionService.swift; sourceTree = "<group>"; };
+		C7939F975859D488BCAA0666 /* FluencyChartView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FluencyChartView.swift; path = Views/Components/FluencyChartView.swift; sourceTree = "<group>"; };
+		C8582020255F7ECAF8EF9AD5 /* UserProfileViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UserProfileViewModel.swift; path = Views/Components/UserProfileViewModel.swift; sourceTree = "<group>"; };
+		C897F309B194127D11F01062 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		C9AA3BB45434CA537D005C12 /* MusicSearchView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MusicSearchView.swift; path = Views/Learn/MusicSearchView.swift; sourceTree = "<group>"; };
+		CADBA55BA55084F4055622A6 /* QuizView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QuizView.swift; path = Views/Quiz/QuizView.swift; sourceTree = "<group>"; };
+		CC3E3C04EC9E201F556D02FC /* AuthService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AuthService.swift; path = Controllers/AuthService.swift; sourceTree = "<group>"; };
+		D1FA18FD20E95D4C3CBB0691 /* ChatMessage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChatMessage.swift; path = Models/ChatMessage.swift; sourceTree = "<group>"; };
+		D5B9546D2C96FEDD38DBF91C /* LessonDetailView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LessonDetailView.swift; path = Views/Lessons/LessonDetailView.swift; sourceTree = "<group>"; };
+		D5C81AA74BB986F98234975D /* PronunciationPracticeListView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PronunciationPracticeListView.swift; path = Views/Practice/PronunciationPracticeListView.swift; sourceTree = "<group>"; };
+		D6BAC67423647EC099858C62 /* TeacherAvatarView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TeacherAvatarView.swift; path = Views/TeacherAvatarView.swift; sourceTree = "<group>"; };
+		D76031AF0F5DF793211BC2B9 /* LoadingView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LoadingView.swift; path = Views/Components/LoadingView.swift; sourceTree = "<group>"; };
+		D77E2FC30E23A370F1148308 /* AssessmentService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AssessmentService.swift; path = Services/AssessmentService.swift; sourceTree = "<group>"; };
+		DBF117DB06A67E1B09A90378 /* LoginView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LoginView.swift; path = Views/Authentication/LoginView.swift; sourceTree = "<group>"; };
+		DC5A76877234CC82A49E35D8 /* AutoVoiceSettings.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AutoVoiceSettings.swift; path = Models/AutoVoiceSettings.swift; sourceTree = "<group>"; };
+		DCB025420F216F8EAAF733C5 /* TabBarExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TabBarExtensions.swift; path = Extensions/TabBarExtensions.swift; sourceTree = "<group>"; };
+		E2991F8E88E6439AF0B83E8C /* VocabularyTrackingService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VocabularyTrackingService.swift; path = Controllers/VocabularyTrackingService.swift; sourceTree = "<group>"; };
+		E310C02D706569F366EDA45E /* PracticeSession.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PracticeSession.swift; path = Models/PracticeSession.swift; sourceTree = "<group>"; };
+		E466C61825AA93868BF8FCF4 /* MetricCard.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MetricCard.swift; path = Views/Components/MetricCard.swift; sourceTree = "<group>"; };
+		E556830EAC14C7EF76CB7625 /* AuthService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AuthService.swift; path = Services/AuthService.swift; sourceTree = "<group>"; };
+		E7E05BB44FB664F7AD7C3FE8 /* PersonalizedLearningService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PersonalizedLearningService.swift; path = Services/PersonalizedLearningService.swift; sourceTree = "<group>"; };
+		E8039D8220B9FC15D81633E5 /* MusicManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MusicManager.swift; path = Views/Components/MusicManager.swift; sourceTree = "<group>"; };
+		E9928C4B1B99F67EB8E3F698 /* LearnView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LearnView.swift; path = Views/Learn/LearnView.swift; sourceTree = "<group>"; };
+		E9E910E460683BE3B6E589B4 /* PronunciationDrillingService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PronunciationDrillingService.swift; path = Services/PronunciationDrillingService.swift; sourceTree = "<group>"; };
+		EBA9EA1CFD80985F8C2BC00F /* SpeechService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpeechService.swift; path = Views/Components/SpeechService.swift; sourceTree = "<group>"; };
+		EC84CE3835AA7E081D139CB7 /* RealTimeAnalyticsManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RealTimeAnalyticsManager.swift; path = Services/RealTimeAnalyticsManager.swift; sourceTree = "<group>"; };
+		ED36055205B6B47404BCDE35 /* TeacherAvatar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TeacherAvatar.swift; path = Models/TeacherAvatar.swift; sourceTree = "<group>"; };
+		F0110E94E6D11BA1C839CFE2 /* LearningContentManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LearningContentManager.swift; path = Controllers/LearningContentManager.swift; sourceTree = "<group>"; };
+		F082652010E49274B9D754F0 /* QuizViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QuizViewModel.swift; path = Views/Components/QuizViewModel.swift; sourceTree = "<group>"; };
+		F1F37981F7C60FF2EE548313 /* Lesson.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Lesson.swift; path = Models/Lesson.swift; sourceTree = "<group>"; };
+		F26B6B38057BD1D4EFCE9469 /* OnboardingContainerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OnboardingContainerView.swift; path = Views/Onboarding/OnboardingContainerView.swift; sourceTree = "<group>"; };
+		F5588A88869A629456C515F4 /* ActiveProductionService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActiveProductionService.swift; path = Services/ActiveProductionService.swift; sourceTree = "<group>"; };
+		F57CFBDC301C8460F28DDEF3 /* MultiLanguageContentDemo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultiLanguageContentDemo.swift; path = Views/Learn/MultiLanguageContentDemo.swift; sourceTree = "<group>"; };
+		F703221213B2A3C945D0384A /* APIService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = APIService.swift; path = Controllers/APIService.swift; sourceTree = "<group>"; };
+		F9F56E85EF0E6E8D1AD178A6 /* Language.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Language.swift; path = Models/Language.swift; sourceTree = "<group>"; };
+		FAE8EC460BFCA4541BCFBB03 /* MessageBubbleView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MessageBubbleView.swift; path = Views/Practice/MessageBubbleView.swift; sourceTree = "<group>"; };
+		FB5128EF997A925F0B130B4C /* AuthenticationViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AuthenticationViewModel.swift; path = Controllers/AuthenticationViewModel.swift; sourceTree = "<group>"; };
+		FB804EB43AA8E0384ACFFC50 /* NotificationService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NotificationService.swift; path = Services/NotificationService.swift; sourceTree = "<group>"; };
+		FD207CBD4662DD42C2949F2F /* PersonalizedLearningService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PersonalizedLearningService.swift; path = Controllers/PersonalizedLearningService.swift; sourceTree = "<group>"; };
+		FF61D01BDA897A0B8239D360 /* StorageService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StorageService.swift; path = Views/Components/StorageService.swift; sourceTree = "<group>"; };
+		FFB160C4EF7C60CDFB5878B4 /* SpacedRepetitionService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpacedRepetitionService.swift; path = Views/Components/SpacedRepetitionService.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		89D9CEB06D50F990D6949C72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D043F418A3C496AA86F327E7 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		089CE82A57376D1DD65493FF /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				18B15AE82C850BE464D71EBE /* AppTheme.swift */,
+			);
+			name = Theme;
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		1BD30E95416912BEC0F8421B /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				2003CF6C5C5C7C0C752486C7 /* OpenAIRealtimeService.swift */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		3D4B65311D8AEAE09ABF556C /* SpeakEasyComplete */ = {
+			isa = PBXGroup;
+			children = (
+				F272BFEE663D386A8ACEC56E /* App */,
+				B98F818BC0B401039A6749EC /* Services */,
+				C58C3D22444A62FF97BCAD0F /* ViewModels */,
+				6A8ACFFA24909F30112653D6 /* Extensions */,
+				BFB737050142669CB3A4A053 /* Utilities */,
+				80F8DCF953D40BB402053AA7 /* Data */,
+				089CE82A57376D1DD65493FF /* Theme */,
+				C5AE6BAC03E37F4FD38ACA51 /* Resources */,
+				A27694D0892BEB601D4462ED /* SpeakEasyApp.swift */,
+			);
+			name = SpeakEasyComplete;
+			sourceTree = "<group>";
+		};
+		4001FAF2A049BD756D31AD54 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1553112529E1CF51DBC4B093 /* RealtimeVoiceViewModel.swift */,
+				C2B32FB2D8262C41DDCCD885 /* RealtimeVoiceViewModel.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		43E6CA61ACCBE76A095A4CF3 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F703221213B2A3C945D0384A /* APIService.swift */,
+				C64D5E65253A09FBD0540A8F /* ActiveProductionService.swift */,
+				91FA32D49BF164AC3B54AA68 /* AdaptiveLearningService.swift */,
+				6442A80588758101BC6FD6B8 /* AssessmentService.swift */,
+				0C1C7E60244BFACF3C0AA335 /* AssessmentViewModel.swift */,
+				CC3E3C04EC9E201F556D02FC /* AuthService.swift */,
+				FB5128EF997A925F0B130B4C /* AuthenticationViewModel.swift */,
+				0593782EAB75F88406F253FA /* AutoVoiceService.swift */,
+				BBECD525555CBB0F51FDE0C9 /* ComprehensibleInputService.swift */,
+				AE94DBA477CBFE0A8809F466 /* ConversationViewModel.swift */,
+				B3D87FA7748CAEA95773B7F2 /* FocusOnFormService.swift */,
+				93A2B4B3466D42FA4DDA95F1 /* GamificationService.swift */,
+				2B8F24343D88C3C69EB1AD29 /* LanguageEngine.swift */,
+				F0110E94E6D11BA1C839CFE2 /* LearningContentManager.swift */,
+				BB66DA7C0F4CAA70920A57FB /* LessonContentGenerator.swift */,
+				2402E51C1FB42FFD6262A74E /* LessonViewModel.swift */,
+				1566C19125AD20756041853C /* MeaningfulInteractionService.swift */,
+				A5145BAA23605B5B6C509F9E /* MultiLanguageService.swift */,
+				A6D75BBE103AB675769A277A /* MusicManager.swift */,
+				10F0340B9DEBAE66B598AF21 /* NotificationService.swift */,
+				45100E12DFBA473915DF0DF2 /* OpenAIService.swift */,
+				FD207CBD4662DD42C2949F2F /* PersonalizedLearningService.swift */,
+				0DA676BC623D806F7FF68026 /* PronunciationDrillingService.swift */,
+				2AFAA261B4BC4B75A3286943 /* QuizViewModel.swift */,
+				7C2560EAC5674CFFC1134D1E /* RealTimeAnalyticsManager.swift */,
+				36205A6C9147C3252C209E4A /* SpacedRepetitionService.swift */,
+				9F75FE3869F946B39D7EB752 /* SpeechService.swift */,
+				8171BF3A8FC556581269C52B /* StorageService.swift */,
+				13F6A68E0A8D666266BAA7C8 /* UserProfileViewModel.swift */,
+				4C867ACE3ED3C2A44BA44F4C /* UserProgressService.swift */,
+				E2991F8E88E6439AF0B83E8C /* VocabularyTrackingService.swift */,
+			);
+			name = Controllers;
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		46BA385C40DDCC65CDEBF06F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D457A1BDD04C43B9EF7EE6D1 /* Components */,
+				EA3324CEC0E96323FD177A35 /* Practice */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		4D09C358BC562B7A8CD93180 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9DFDB378D53B50A8DE6CBCE3 /* SpeakEasyComplete.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52BFCEBE3C04544573A41E5E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DBF117DB06A67E1B09A90378 /* LoginView.swift */,
+				389370F410F1BE9FF402B4E6 /* SocialAuthButton.swift */,
+				37317841BA61B8F740601D27 /* FluencyChallengesView.swift */,
+				6AF85FC269174474934FB3AC /* APIService.swift */,
+				5513097E66CA042B85BCE868 /* AchievementsSection.swift */,
+				3F66CA0BAF6C2FD696E2BC77 /* ActiveProductionService.swift */,
+				26EEE924749F75A9182FF419 /* AdaptiveLearningService.swift */,
+				0F9AB6F5991905287C29EE51 /* AnimatedCheckmark.swift */,
+				9567525F83770579B17D8441 /* AssessmentService.swift */,
+				803CA7CE1324911F483DCE93 /* AssessmentViewModel.swift */,
+				9FA024DC44F88F9320EB31DA /* AuthenticationViewModel.swift */,
+				006CF2A2D08CBC707EF66824 /* AutoVoiceService.swift */,
+				918E2DC7EE7F64233DE1ABE9 /* ComprehensibleInputService.swift */,
+				668E83074CE8BE6D04CFE5B6 /* ConversationViewModel.swift */,
+				26C7BB3EB6272944D65A3751 /* ErrorView.swift */,
+				4C1B93CB40A6DB3DCE13EE16 /* FeedbackSection.swift */,
+				C7939F975859D488BCAA0666 /* FluencyChartView.swift */,
+				8724C0307E37E9A21093ECC5 /* FocusOnFormService.swift */,
+				5B05F5D3A1B01C520DC3E59E /* GamificationService.swift */,
+				8317411AFD735C5345B668FF /* GradientBackground.swift */,
+				AEC326798E6C66C478C56322 /* ImprovementTipsView.swift */,
+				B6F491F76790589BED54616C /* LanguageEngine.swift */,
+				579930D8D81C522C19268FB9 /* LearningContentManager.swift */,
+				A13E15AD4ED08775B24CE202 /* LessonContentGenerator.swift */,
+				8F5240463F6506FC08C6271B /* LessonViewModel.swift */,
+				D76031AF0F5DF793211BC2B9 /* LoadingView.swift */,
+				69A996BAC7C7AD19D555ED25 /* MeaningfulInteractionService.swift */,
+				E466C61825AA93868BF8FCF4 /* MetricCard.swift */,
+				0891908CF2BFBB74B5AA24AD /* MultiLanguageService.swift */,
+				E8039D8220B9FC15D81633E5 /* MusicManager.swift */,
+				006C00C09A73745588FE522B /* NotificationService.swift */,
+				B66F6C6EEF34B947572B5106 /* OpenAIService.swift */,
+				00EE7AA06CDB133CD125FCA2 /* PersonalizedLearningService.swift */,
+				C08D0CD2A75FD9D50F3B6152 /* PronunciationDrillingService.swift */,
+				F082652010E49274B9D754F0 /* QuizViewModel.swift */,
+				9995E449DF40FE7EB3575B48 /* RealTimeAnalyticsManager.swift */,
+				7AE29885299CF5388D38A044 /* ResultsHeaderView.swift */,
+				FFB160C4EF7C60CDFB5878B4 /* SpacedRepetitionService.swift */,
+				EBA9EA1CFD80985F8C2BC00F /* SpeechService.swift */,
+				FF61D01BDA897A0B8239D360 /* StorageService.swift */,
+				C8582020255F7ECAF8EF9AD5 /* UserProfileViewModel.swift */,
+				10B9551F8ABE5B5A02ECB4F4 /* UserProgressService.swift */,
+				2A026728664C590FD7F6AC9A /* VocabularyTrackingService.swift */,
+				B757B7E96C4DF6416FF4D6F9 /* LaunchScreenView.swift */,
+				C4E0B58E217B3BE29DF955AC /* GrammarReferenceView.swift */,
+				2A8CC87643DDF723DBD50D1D /* LanguageContentDemoView.swift */,
+				E9928C4B1B99F67EB8E3F698 /* LearnView.swift */,
+				A2D01FC72E588209F74D4C93 /* LessonsContentView.swift */,
+				F57CFBDC301C8460F28DDEF3 /* MultiLanguageContentDemo.swift */,
+				B38DF9F87730634C6EF1498E /* MusicContentView.swift */,
+				C9AA3BB45434CA537D005C12 /* MusicSearchView.swift */,
+				B326B42603A454654E1C371F /* MusicServiceConnectView.swift */,
+				89143561E0DC2864D51A63D2 /* PlaylistDetailView.swift */,
+				33953339492BC99CE7A22FB1 /* SongLearningView.swift */,
+				C494CB9FB2883AB38A5B6EE7 /* StoriesContentView.swift */,
+				244B1753C990EE1AF452A29B /* VideosContentView.swift */,
+				D5B9546D2C96FEDD38DBF91C /* LessonDetailView.swift */,
+				AEFA7A3B0E93A4371041F4C5 /* LessonListView.swift */,
+				0D32B0E0A2394F8F9422B775 /* LessonView.swift */,
+				9126793D4CD399FFF6599507 /* ContentView.swift */,
+				4BF14D7E12058CFC2DABA7FC /* SettingsView.swift */,
+				B9E6FD3F680758D223C78C2E /* TabBarView.swift */,
+				4F93C03ED6001D13002CDD26 /* InterestSelectionView.swift */,
+				26FC1DB6EBCEE6593F190369 /* LanguageSelectionView.swift */,
+				AEE84F18D18C251198D39451 /* NotificationPermissionView.swift */,
+				F26B6B38057BD1D4EFCE9469 /* OnboardingContainerView.swift */,
+				0585D0C661E27BB2FB316F20 /* OnboardingProgressView.swift */,
+				0D405F645DF8B2DFCD8F110C /* AssessmentResultView.swift */,
+				C2E2F0247EE716A2C0B6D1BA /* ConversationPracticeView.swift */,
+				7B1C018E4642F1D8D51E0AEC /* GuidedPracticeView.swift */,
+				FAE8EC460BFCA4541BCFBB03 /* MessageBubbleView.swift */,
+				34DE813291A58A61EFFEFE86 /* PracticeModeSelectorView.swift */,
+				439110758A57B7950DD5AEA3 /* PracticeResultsView.swift */,
+				AA23A623A1D1E6D761AF5256 /* PracticeView.swift */,
+				7F959479B07B1B1A289BF23A /* PronunciationCoachView.swift */,
+				D5C81AA74BB986F98234975D /* PronunciationPracticeListView.swift */,
+				8E59F10983BB2C7E7DB4A678 /* ScenarioPracticeView.swift */,
+				567B9CDBED4084185ADAEC94 /* TalkingAvatarView.swift */,
+				96FF2F6CDA62E4B12A4A5732 /* TeacherAnimationView.swift */,
+				7C99C2AE4FE1059B8EF6BD9F /* VoiceComparisonView.swift */,
+				C09040F4C1593AB3CEDA0DD0 /* VoiceControlsView.swift */,
+				08073FA13A50BC5F608FA5B2 /* VoiceWaveformView.swift */,
+				9A510AC5795A69DA8BEF4199 /* AchievementsView.swift */,
+				7FDF5DFECB413594CF3C31E7 /* OverviewDashboard.swift */,
+				0D809BCCC97605E8D2EF1D06 /* ProgressView.swift */,
+				BA6A16DA38AB296818F6F6CF /* ReviewSection.swift */,
+				91F52527F9AE265DF47A3D3F /* SkillsBreakdownView.swift */,
+				6597948AF0E1897A38743F91 /* VocabularyProgressView.swift */,
+				CADBA55BA55084F4055622A6 /* QuizView.swift */,
+				A359AE591B6AC47C4D93129A /* AutoVoiceSettingsView.swift */,
+				BD704D2FC14D3082826898FD /* LanguageSettingsView.swift */,
+				AF43304A7EB491AF04227996 /* NotificationSettingsView.swift */,
+				D6BAC67423647EC099858C62 /* TeacherAvatarView.swift */,
+				6BCCA66CC65295DE95F87904 /* VocabularyReviewView.swift */,
+			);
+			name = Views;
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6A8ACFFA24909F30112653D6 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				DCB025420F216F8EAAF733C5 /* TabBarExtensions.swift */,
+			);
+			name = Extensions;
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		80F8DCF953D40BB402053AA7 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				03EA1F5C2330E244B17CDCA9 /* ComprehensiveLessonData.swift */,
+				B44F189C32D87ECC27892DA3 /* LanguageLessonContent.swift */,
+				3E6A0DBCAD64C088DFE68D83 /* VocabularyDatabase.swift */,
+			);
+			name = Data;
+			path = Data;
+			sourceTree = "<group>";
+		};
+		87A1F1CE23F163A19C65EE7F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A83BCF34CCCB0A99B08580EF /* AppState.swift */,
+				119A6498A4C25D446EFB62F8 /* AppTab.swift */,
+				68D6683197EE091112F97C87 /* Assessment.swift */,
+				B66ECEDA71D190FD65D5CB54 /* AssessmentRequest.swift */,
+				2248A648D8F3DD4C10C59D9E /* AssessmentResult.swift */,
+				38E71953AC1AADF07FC5C9B2 /* AudioLevelMonitor.swift */,
+				DC5A76877234CC82A49E35D8 /* AutoVoiceSettings.swift */,
+				D1FA18FD20E95D4C3CBB0691 /* ChatMessage.swift */,
+				5D1E7D41DC8B4B99F1712290 /* ContentStrategy.swift */,
+				A001AB6DA64CA3B2B3ADC34A /* Conversation.swift */,
+				180A7B1BC4E833917D5152C7 /* ConversationFeedback.swift */,
+				13DC9109E019E2485BA449D6 /* ConversationScenario.swift */,
+				1AA1BD8A1E24FD8F46BA756C /* DifficultyLevel.swift */,
+				325BA4D563EB144B25AAADFA /* FluencyMetrics.swift */,
+				51108980B1846695ADDAD998 /* FluencyTechnique.swift */,
+				F9F56E85EF0E6E8D1AD178A6 /* Language.swift */,
+				1054D13482565A243647B273 /* LanguageFeatures.swift */,
+				1627F738ED7F769C51FAD751 /* LanguageSkill.swift */,
+				BA4296A4F1FDEE7F184CEBF4 /* LearningProgress.swift */,
+				F1F37981F7C60FF2EE548313 /* Lesson.swift */,
+				200017D54EE004CEA1B0F9B5 /* LessonCategory.swift */,
+				909750E378ACB6FFCCCC2C85 /* Message.swift */,
+				495F08DD1253B9D825D00BFF /* MouthMask.swift */,
+				E310C02D706569F366EDA45E /* PracticeSession.swift */,
+				578E6AB8AFA370C190E181BC /* ProficiencyLevel.swift */,
+				50853C6C52037B7E4F24496F /* ProgressModels.swift */,
+				716C94CCC798D2793E39B225 /* Quiz.swift */,
+				B410F7C7BFFF972327FBA0CF /* QuizQuestion.swift */,
+				48C505586E77DFA0A09B000D /* QuizResult.swift */,
+				41A831F58CA58E1C2B5DAFC4 /* SessionMetrics.swift */,
+				090B083C06EE9273473AF73C /* TalkingTeacherView.swift */,
+				ED36055205B6B47404BCDE35 /* TeacherAvatar.swift */,
+				46AC141CD159428165A425AB /* TeacherAvatarView2.swift */,
+				524D3505497D01453673B74A /* User.swift */,
+				9505A54B396F5A320C1F77CE /* UserPreferences.swift */,
+				05EDF813D79BC42BB17C76CE /* UserProfile.swift */,
+			);
+			name = Models;
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8D6FDF6B7EEF4740BC427068 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9698DDA7AC6547948B36CA8A /* OS X */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9698DDA7AC6547948B36CA8A /* OS X */ = {
+			isa = PBXGroup;
+			children = (
+				C897F309B194127D11F01062 /* Cocoa.framework */,
+			);
+			name = "OS X";
+			sourceTree = "<group>";
+		};
+		B98F818BC0B401039A6749EC /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				C381FB9C00B8EDAA6C119A86 /* APIService.swift */,
+				F5588A88869A629456C515F4 /* ActiveProductionService.swift */,
+				2E36AADED7E5EAA242CB1D9C /* AdaptiveLearningService.swift */,
+				D77E2FC30E23A370F1148308 /* AssessmentService.swift */,
+				E556830EAC14C7EF76CB7625 /* AuthService.swift */,
+				7131A9B77D280979D37A5230 /* AutoVoiceService.swift */,
+				80BFC45EC8327A748DAE30C1 /* ComprehensibleInputService.swift */,
+				6FCC7FE52D0F9C6EEB0D58C5 /* FocusOnFormService.swift */,
+				79EB13B346A3CC7A101EEFD5 /* GamificationService.swift */,
+				10658029F7AFEAE92B154B7A /* LanguageEngine.swift */,
+				A03D839C0AC32B0558CA17A8 /* LearningContentManager.swift */,
+				A77E5D0DE346CE704161DAEE /* LessonContentGenerator.swift */,
+				89BDB893DC8DA82158DD4A67 /* MeaningfulInteractionService.swift */,
+				17B86AFE440AF9D2851D90F7 /* MultiLanguageService.swift */,
+				9FD7287AA62291F903735F5B /* MusicManager.swift */,
+				FB804EB43AA8E0384ACFFC50 /* NotificationService.swift */,
+				808206F4E711DCB5BCDAC1E2 /* OpenAIService.swift */,
+				E7E05BB44FB664F7AD7C3FE8 /* PersonalizedLearningService.swift */,
+				E9E910E460683BE3B6E589B4 /* PronunciationDrillingService.swift */,
+				EC84CE3835AA7E081D139CB7 /* RealTimeAnalyticsManager.swift */,
+				632718D16C6E712E9104A4FB /* SpacedRepetitionService.swift */,
+				0C4C31C91519D93052882537 /* SpeechService.swift */,
+				8A108B89C0D330877800B0F3 /* StorageService.swift */,
+				C0EC2E0AC2B57C79E538C3BD /* UserProgressService.swift */,
+				4C8284C682BE4A49A4684A38 /* VocabularyTrackingService.swift */,
+			);
+			name = Services;
+			path = Services;
+			sourceTree = "<group>";
+		};
+		BFB737050142669CB3A4A053 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				A5C2A55C13BA25BBA3E1BD08 /* AppFormatters.swift */,
+			);
+			name = Utilities;
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		C58C3D22444A62FF97BCAD0F /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ViewModels;
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		C5AE6BAC03E37F4FD38ACA51 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B4A14CAC63D4B939772D2831 /* GoogleService-Info.plist */,
+				2B6274D0578F5A7469FBA902 /* Assets.xcassets */,
+			);
+			name = Resources;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CAD32CE8D245FE1D652A600E = {
+			isa = PBXGroup;
+			children = (
+				4D09C358BC562B7A8CD93180 /* Products */,
+				8D6FDF6B7EEF4740BC427068 /* Frameworks */,
+				3D4B65311D8AEAE09ABF556C /* SpeakEasyComplete */,
+				4001FAF2A049BD756D31AD54 /* Controllers */,
+				46BA385C40DDCC65CDEBF06F /* Views */,
+				1BD30E95416912BEC0F8421B /* Services */,
+				EA98AF9628FAF5F9A856FDA8 /* Models */,
+				E2A4FEC15FA1782A06AA3307 /* Resources */,
+			);
+			sourceTree = "<group>";
+		};
+		D457A1BDD04C43B9EF7EE6D1 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				01A5AC661442EA049F5C3B67 /* VisemeTeacherAvatarView.swift */,
+				1706E87CAD9DB34135ABB878 /* ChatTranscriptView.swift */,
+				0755189B21CE2EA4C4681B81 /* WaveformView.swift */,
+				8E263CCD3AC3609B0D599C43 /* VisemeTeacherAvatarView.swift */,
+				1462DE56051DA5604DDCFDCE /* ChatTranscriptView.swift */,
+				BAB7618E43474B14E79C9DF7 /* WaveformView.swift */,
+			);
+			name = Components;
+			sourceTree = "<group>";
+		};
+		E2A4FEC15FA1782A06AA3307 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				92B0D6B0470A5E4676E119F3 /* Secrets.plist */,
+				926297B0AB26CB26F1918029 /* Secrets.plist.example */,
+				B73A7413FFF3E82FF3E4DEB2 /* GoogleService-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		EA3324CEC0E96323FD177A35 /* Practice */ = {
+			isa = PBXGroup;
+			children = (
+				943D4FB1F8CBDDF8C50B747A /* RealtimePracticeView.swift */,
+				29015B6DA99BB039D0B3DED4 /* RealtimePracticeView.swift */,
+			);
+			name = Practice;
+			sourceTree = "<group>";
+		};
+		EA98AF9628FAF5F9A856FDA8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1E5E3094A4AFD1756E4A32C5 /* ChatMessage.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		F272BFEE663D386A8ACEC56E /* App */ = {
+			isa = PBXGroup;
+			children = (
+				87A1F1CE23F163A19C65EE7F /* Models */,
+				52BFCEBE3C04544573A41E5E /* Views */,
+				43E6CA61ACCBE76A095A4CF3 /* Controllers */,
+			);
+			name = App;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8FF1F8DA7127C27BAC349A4F /* SpeakEasyComplete */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCC82388A9FD156B3A11CC3B /* Build configuration list for PBXNativeTarget "SpeakEasyComplete" */;
+			buildPhases = (
+				3CA24648CAAE1DAC99950839 /* Sources */,
+				89D9CEB06D50F990D6949C72 /* Frameworks */,
+				C580AA5410014B660E5B4F52 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpeakEasyComplete;
+			productName = SpeakEasyComplete;
+			productReference = 9DFDB378D53B50A8DE6CBCE3 /* SpeakEasyComplete.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		731E5AEA838C71338CEE49B3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+			};
+			buildConfigurationList = 1F7DE05932B8E30C059BC5E0 /* Build configuration list for PBXProject "SpeakEasyComplete" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CAD32CE8D245FE1D652A600E;
+			minimizedProjectReferenceProxies = 0;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 4D09C358BC562B7A8CD93180 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8FF1F8DA7127C27BAC349A4F /* SpeakEasyComplete */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C580AA5410014B660E5B4F52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EEF7F5BDF625ACA5BD16D16 /* Assets.xcassets in Resources */,
+				8300DF9B4EEE3ACB227ADD31 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3CA24648CAAE1DAC99950839 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D76D7476582EB1644EEB4EB /* SpeakEasyApp.swift in Sources */,
+				5293EB901F0A65F59F81532C /* AppState.swift in Sources */,
+				765195E968AC377DF230BD7B /* AppTab.swift in Sources */,
+				3DD30FAC1CD08CF9E1AB1173 /* Assessment.swift in Sources */,
+				CBFF88BC08A1514B016B2EC4 /* AssessmentRequest.swift in Sources */,
+				C8B43B011F0CC59BB884B5A8 /* AssessmentResult.swift in Sources */,
+				7FA9B153220D6CDB6C0C0B00 /* AudioLevelMonitor.swift in Sources */,
+				9E2DC719FE4590676818B400 /* AutoVoiceSettings.swift in Sources */,
+				1C4B35762601EAF13D15846A /* ChatMessage.swift in Sources */,
+				DB99C0EEB0FFAC35D4974046 /* ContentStrategy.swift in Sources */,
+				8EA55C3A10B688DCAAC1018A /* Conversation.swift in Sources */,
+				F2CD40036C6FF94A5F260325 /* ConversationFeedback.swift in Sources */,
+				909003C6392080514802F83F /* ConversationScenario.swift in Sources */,
+				389170644324A77C5AD8ED19 /* DifficultyLevel.swift in Sources */,
+				10A31935891BABBF76848853 /* FluencyMetrics.swift in Sources */,
+				5E48B692E3DA3C2BA9CFF7C0 /* FluencyTechnique.swift in Sources */,
+				53E8678A71A41B07952C7CA7 /* Language.swift in Sources */,
+				096EBAC08D8D772FFDB38D73 /* LanguageFeatures.swift in Sources */,
+				D2F36E0738D3B2DEF019D844 /* LanguageSkill.swift in Sources */,
+				6719CA8B7EC8F2E0A2DA417C /* LearningProgress.swift in Sources */,
+				E15C60DEB7B310E8274CAD52 /* Lesson.swift in Sources */,
+				74D849A909C26EEECDC00F9E /* LessonCategory.swift in Sources */,
+				6E66FD271A586798588033A7 /* Message.swift in Sources */,
+				43DE70A98ADE932660D5BD0C /* MouthMask.swift in Sources */,
+				B6A9DF92478869E55608E6C5 /* PracticeSession.swift in Sources */,
+				61A97A82392FC03DC3B6E9E9 /* ProficiencyLevel.swift in Sources */,
+				8516FD7155DA0BAED5975347 /* ProgressModels.swift in Sources */,
+				DB6E397C0DE05C03305AF2B6 /* Quiz.swift in Sources */,
+				15613F6D1EC758CD63A7FA44 /* QuizQuestion.swift in Sources */,
+				18BB30A905795B028280BF69 /* QuizResult.swift in Sources */,
+				B6FC0E7D82DB2C99F32F581C /* SessionMetrics.swift in Sources */,
+				8AC752A05A01CB57B34244D8 /* TalkingTeacherView.swift in Sources */,
+				54F0E4ADD8BFE25413315C68 /* TeacherAvatar.swift in Sources */,
+				52DC4F8F813F4D2A5FEA817F /* TeacherAvatarView2.swift in Sources */,
+				CD9E3067879815523E6559BB /* User.swift in Sources */,
+				A268D84F828E5B92BB331DEF /* UserPreferences.swift in Sources */,
+				3E542ED861FA21DF29232019 /* UserProfile.swift in Sources */,
+				155AA7364D16680087C17882 /* LoginView.swift in Sources */,
+				216FB784D5FDBC5020B9A259 /* SocialAuthButton.swift in Sources */,
+				F69CAC30E132A90519A29456 /* FluencyChallengesView.swift in Sources */,
+				ECC43AFFECB608C70978A994 /* APIService.swift in Sources */,
+				88E0811BADC2489BA2CC7334 /* AchievementsSection.swift in Sources */,
+				90363B90E81AF03E1D170375 /* ActiveProductionService.swift in Sources */,
+				034B47D37C72439E10687906 /* AdaptiveLearningService.swift in Sources */,
+				4DC2BC8EEAD575E3507D30D0 /* AnimatedCheckmark.swift in Sources */,
+				02070AEE95E155BAA25E51C8 /* AssessmentService.swift in Sources */,
+				F0BC404D37372D51589A984F /* AssessmentViewModel.swift in Sources */,
+				2BFCCDDD60F518A6F7779C71 /* AuthenticationViewModel.swift in Sources */,
+				2BECE26D69F69633CF06390D /* AutoVoiceService.swift in Sources */,
+				AADED09601E7D7800D3D3F99 /* ComprehensibleInputService.swift in Sources */,
+				3170A76776A79DC68B74A536 /* ConversationViewModel.swift in Sources */,
+				DB8A9806C02B9D4BEE63F3DB /* ErrorView.swift in Sources */,
+				E919A820DBFDA3371D8C53A6 /* FeedbackSection.swift in Sources */,
+				9FAA9543F7BF3A7580EA2B27 /* FluencyChartView.swift in Sources */,
+				92A28062ED365629836D93CE /* FocusOnFormService.swift in Sources */,
+				62864228006643044D237B4F /* GamificationService.swift in Sources */,
+				58BD362D7357DE03F3422AE2 /* GradientBackground.swift in Sources */,
+				86B8C1CAEB23074C5064D5C9 /* ImprovementTipsView.swift in Sources */,
+				C21BFD33F6137854CEE67B04 /* LanguageEngine.swift in Sources */,
+				9F7317A88FF61063748C9D83 /* LearningContentManager.swift in Sources */,
+				D531111F8EB20925244A1EE2 /* LessonContentGenerator.swift in Sources */,
+				CFAF595A7A407AD4642665D8 /* LessonViewModel.swift in Sources */,
+				AA48E1E3E51603F6B9AEE7F0 /* LoadingView.swift in Sources */,
+				EE8326A3520D3DD08F9C316E /* MeaningfulInteractionService.swift in Sources */,
+				CA02854832F7B792BF8CC385 /* MetricCard.swift in Sources */,
+				E0C6666FD7F95D7F52C68AC1 /* MultiLanguageService.swift in Sources */,
+				2DAA393FDB03138BDD066FFD /* MusicManager.swift in Sources */,
+				FB40E0D52E5827724A0B2B4F /* NotificationService.swift in Sources */,
+				ECADE171F2D6B11C34C06798 /* OpenAIService.swift in Sources */,
+				662099C07EA510A579B94CCC /* PersonalizedLearningService.swift in Sources */,
+				CB261AD513F29D6B031B4050 /* PronunciationDrillingService.swift in Sources */,
+				691B592BF8C171195EAC9162 /* QuizViewModel.swift in Sources */,
+				B8C3CC5B54A63D448D226361 /* RealTimeAnalyticsManager.swift in Sources */,
+				4990BEFC89BD086DF8D7EE05 /* ResultsHeaderView.swift in Sources */,
+				85DEB0DFB9E5C104C793C427 /* SpacedRepetitionService.swift in Sources */,
+				581BDBE9964EEAE09CF11D3C /* SpeechService.swift in Sources */,
+				53F397CFD8D0B1A21400C126 /* StorageService.swift in Sources */,
+				4C6730416C0B51915ACC09EB /* UserProfileViewModel.swift in Sources */,
+				69B0997656B1F2D200A7FF35 /* UserProgressService.swift in Sources */,
+				DA58CB09C9FEFC605C111268 /* VocabularyTrackingService.swift in Sources */,
+				23702C66ED2865555471DB34 /* LaunchScreenView.swift in Sources */,
+				97397E17BC60122B785F15F5 /* GrammarReferenceView.swift in Sources */,
+				2907544D1CC6B4CDD48A7B67 /* LanguageContentDemoView.swift in Sources */,
+				1338875CD94BEE82507B73F5 /* LearnView.swift in Sources */,
+				4CF46A6249E41F1D79C8FCD6 /* LessonsContentView.swift in Sources */,
+				9FF1B8F8CBCAB1A5980ADCC2 /* MultiLanguageContentDemo.swift in Sources */,
+				E056273C040DCF0AB4189298 /* MusicContentView.swift in Sources */,
+				3D9868C8ACBB90BD2250F3ED /* MusicSearchView.swift in Sources */,
+				DFBE15CF0490B597F847378D /* MusicServiceConnectView.swift in Sources */,
+				5D50CA73AA23156C3EA7883D /* PlaylistDetailView.swift in Sources */,
+				9F829CB67E598CC4C3815294 /* SongLearningView.swift in Sources */,
+				D06B3728590E39AE44134CBE /* StoriesContentView.swift in Sources */,
+				2165C6757267AE1E3F7EA89A /* VideosContentView.swift in Sources */,
+				14E5449A07361F1B6976AF20 /* LessonDetailView.swift in Sources */,
+				61B9DF9999A8A98A218CB3A2 /* LessonListView.swift in Sources */,
+				7861206B7F809D78E326FD8F /* LessonView.swift in Sources */,
+				AC308A682F2D7233626616F7 /* ContentView.swift in Sources */,
+				681E7F7C2CCD5CE2BAF6493C /* SettingsView.swift in Sources */,
+				E31CA45E9A901B630B3A51E1 /* TabBarView.swift in Sources */,
+				C76013DD54981887D3ED9654 /* InterestSelectionView.swift in Sources */,
+				33EF8EB324ABB47B85BF7AA9 /* LanguageSelectionView.swift in Sources */,
+				BBF012364A3F7A56C6C9F920 /* NotificationPermissionView.swift in Sources */,
+				24E60FAB67EB83A29F9B9DC2 /* OnboardingContainerView.swift in Sources */,
+				BA8C74DD1347256E30CD85EF /* OnboardingProgressView.swift in Sources */,
+				C1FEA846DCA48B807B51E6FF /* AssessmentResultView.swift in Sources */,
+				B5CCCF07C689FDF82F05D054 /* ConversationPracticeView.swift in Sources */,
+				87AE24483DEC541B692DAB8C /* GuidedPracticeView.swift in Sources */,
+				420F170BF03C1558D58D17E7 /* MessageBubbleView.swift in Sources */,
+				B7022298532D04B990D9249D /* PracticeModeSelectorView.swift in Sources */,
+				A07BCC59DB34A5AC24BB7DA7 /* PracticeResultsView.swift in Sources */,
+				DE925A071FF1CD53D96A9D8E /* PracticeView.swift in Sources */,
+				F94459FD95F00472BD4E2400 /* PronunciationCoachView.swift in Sources */,
+				8E94AC59EBF5CADD3C7146C5 /* PronunciationPracticeListView.swift in Sources */,
+				38917EC975F517879D0C88ED /* ScenarioPracticeView.swift in Sources */,
+				36D57E4F5B37B3617445F626 /* TalkingAvatarView.swift in Sources */,
+				50F5C6D0CBCAC769FA388608 /* TeacherAnimationView.swift in Sources */,
+				347C509C3B719003B952C0AD /* VoiceComparisonView.swift in Sources */,
+				06D353B6A3AA3E82A4A6D79F /* VoiceControlsView.swift in Sources */,
+				52D9CF177F603CC952743455 /* VoiceWaveformView.swift in Sources */,
+				A3E25A25A959231CBF3AA6CA /* AchievementsView.swift in Sources */,
+				67A9C779C5034A10A516D2B7 /* OverviewDashboard.swift in Sources */,
+				941566804AFD09B4A4226DF1 /* ProgressView.swift in Sources */,
+				F2DC68D39A4FD47E974F0176 /* ReviewSection.swift in Sources */,
+				E43C3DC560783E5A15009F75 /* SkillsBreakdownView.swift in Sources */,
+				2F31B82D8570B39D356840DB /* VocabularyProgressView.swift in Sources */,
+				B35E907022C685A602D7F714 /* QuizView.swift in Sources */,
+				9A55DA09D49041B0F90DF209 /* AutoVoiceSettingsView.swift in Sources */,
+				647915AF1ACCF9DCDE00B14C /* LanguageSettingsView.swift in Sources */,
+				E5924EFF6D23D5F2C8BB56C6 /* NotificationSettingsView.swift in Sources */,
+				03262C5D4EAE36E4C99A758D /* TeacherAvatarView.swift in Sources */,
+				E728CCACFCDCA83DE2CA1926 /* VocabularyReviewView.swift in Sources */,
+				15EF89BFC95F840C494C589E /* APIService.swift in Sources */,
+				4A7CF6E74B7220E0AB83702C /* ActiveProductionService.swift in Sources */,
+				CA45796CB2C601310046B718 /* AdaptiveLearningService.swift in Sources */,
+				EF548942BD9EC508AC7786EC /* AssessmentService.swift in Sources */,
+				21A8A65E0A0C1C06D1FD73FA /* AssessmentViewModel.swift in Sources */,
+				6DE88AB0C92C6E061D758654 /* AuthService.swift in Sources */,
+				0F2FA9CE9F8F3114FF9C81E5 /* AuthenticationViewModel.swift in Sources */,
+				AAFCC43C2B1ECACC4CFA3742 /* AutoVoiceService.swift in Sources */,
+				4B65ADC96CDFF4E0F6AA2424 /* ComprehensibleInputService.swift in Sources */,
+				422C93FF591DA36780E41E60 /* ConversationViewModel.swift in Sources */,
+				3B75DE5C20D5397055CF66B2 /* FocusOnFormService.swift in Sources */,
+				E9DF3BE5B3FA3171D9C70DCD /* GamificationService.swift in Sources */,
+				631935CB69E2F7F063B7427C /* LanguageEngine.swift in Sources */,
+				1D12672C45CF2A76CA3D7127 /* LearningContentManager.swift in Sources */,
+				30448B64AF228BC8D84A4C08 /* LessonContentGenerator.swift in Sources */,
+				F076FE5B089F269CCA0738F9 /* LessonViewModel.swift in Sources */,
+				EC5BFDBDA8B8EC74F7AE8E0E /* MeaningfulInteractionService.swift in Sources */,
+				A4E66849043EF61CEF4F7EEE /* MultiLanguageService.swift in Sources */,
+				A67CF02E76BC2EF534A86F80 /* MusicManager.swift in Sources */,
+				F00051F922A9C1EB56DB5478 /* NotificationService.swift in Sources */,
+				B6CE966E724E18CC93B8945B /* OpenAIService.swift in Sources */,
+				118F5215EA6DB3AEE925511B /* PersonalizedLearningService.swift in Sources */,
+				7FE89580D09DC6B755C3EFE5 /* PronunciationDrillingService.swift in Sources */,
+				C96597784DB5F3D0C673B742 /* QuizViewModel.swift in Sources */,
+				08B6EC3FB629DFB9C1CA01F9 /* RealTimeAnalyticsManager.swift in Sources */,
+				F151E02BF11B535025026AE9 /* SpacedRepetitionService.swift in Sources */,
+				36B5BC9D8C217E8EDA22B4AA /* SpeechService.swift in Sources */,
+				14897F11E7D731FD50D558E3 /* StorageService.swift in Sources */,
+				760D87C66A2E6A27F5135A4C /* UserProfileViewModel.swift in Sources */,
+				71C9816AC213C801C396E945 /* UserProgressService.swift in Sources */,
+				2DCBCC2A7FD18772007F3F5C /* VocabularyTrackingService.swift in Sources */,
+				2417B1466CE4F991E9B612ED /* APIService.swift in Sources */,
+				C6C6A8F29BB77A07C3E8814B /* ActiveProductionService.swift in Sources */,
+				53EE89255D6958B5DFE1E591 /* AdaptiveLearningService.swift in Sources */,
+				D0EB4291DA5950D4121DDB7D /* AssessmentService.swift in Sources */,
+				7C46147EA4CF72681D874AA6 /* AuthService.swift in Sources */,
+				8B55FDBBEFD5C78CD86F1404 /* AutoVoiceService.swift in Sources */,
+				A8B5019F620F6F6123C67EE4 /* ComprehensibleInputService.swift in Sources */,
+				2355C05F699BCB04534D083C /* FocusOnFormService.swift in Sources */,
+				C9730851A3EF77263DBC2377 /* GamificationService.swift in Sources */,
+				3A59BBC9C17697E1926F050B /* LanguageEngine.swift in Sources */,
+				7853C5A429A605C0B5D834BD /* LearningContentManager.swift in Sources */,
+				C6F7E1A660E371203C10CC57 /* LessonContentGenerator.swift in Sources */,
+				A87767E95BCC9498CCD67F25 /* MeaningfulInteractionService.swift in Sources */,
+				3C48A37D9C2708090513BA80 /* MultiLanguageService.swift in Sources */,
+				9D8A893C7CB6EC1C28D8BD5B /* MusicManager.swift in Sources */,
+				1BEA85A7A2BD490BA529F88C /* NotificationService.swift in Sources */,
+				AB22F3151267FC2BB5F0B52E /* OpenAIService.swift in Sources */,
+				25E92F4466BEDE45FAB7BE8F /* PersonalizedLearningService.swift in Sources */,
+				C9C59F446DDBF8C475C8F328 /* PronunciationDrillingService.swift in Sources */,
+				2B09591FD823B3618C0D7135 /* RealTimeAnalyticsManager.swift in Sources */,
+				7F8B68B809A20491B5EA831B /* SpacedRepetitionService.swift in Sources */,
+				120B455A26289D239E9CC903 /* SpeechService.swift in Sources */,
+				EF7068108D0BC95E6ABD72B7 /* StorageService.swift in Sources */,
+				83A28C4E23BDC8C663BFDAE5 /* UserProgressService.swift in Sources */,
+				345530AC3A503388631309A7 /* VocabularyTrackingService.swift in Sources */,
+				204A6C4E5A973AD6753057C4 /* TabBarExtensions.swift in Sources */,
+				35F5BA1E7570C23A0E0995F9 /* AppFormatters.swift in Sources */,
+				5AD5910ADCEE7EADC9BB0CB9 /* ComprehensiveLessonData.swift in Sources */,
+				741858B8B10EDD923CADBD19 /* LanguageLessonContent.swift in Sources */,
+				54CCF9A90C042EF68BCB7CB8 /* VocabularyDatabase.swift in Sources */,
+				790BFAC508D2F150202F3F30 /* AppTheme.swift in Sources */,
+				64EEB0BB46F21F37B4EE4EC7 /* RealtimeVoiceViewModel.swift in Sources */,
+				AAA0DF2D5362286B77E09C51 /* VisemeTeacherAvatarView.swift in Sources */,
+				F04901EB57C6E7BD8C53B8DF /* ChatTranscriptView.swift in Sources */,
+				421FE326ADEACDCE6239B551 /* WaveformView.swift in Sources */,
+				040C5273DCAAD26498F7CCE2 /* RealtimePracticeView.swift in Sources */,
+				314A08EC6F8D18D422BF0632 /* OpenAIRealtimeService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4800CD0DADE5E57E998363AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		AE642732FC34CF598588E77E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		B91E19A3EABC12365DAA2071 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SpeakEasy.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.speakeasy.complete;
+				PRODUCT_NAME = SpeakEasyComplete;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.9;
+			};
+			name = Release;
+		};
+		E5000122FE53C05F537F7190 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				CODE_SIGN_ENTITLEMENTS = SpeakEasy.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.speakeasy.complete;
+				PRODUCT_NAME = SpeakEasyComplete;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.9;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F7DE05932B8E30C059BC5E0 /* Build configuration list for PBXProject "SpeakEasyComplete" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4800CD0DADE5E57E998363AE /* Debug */,
+				AE642732FC34CF598588E77E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCC82388A9FD156B3A11CC3B /* Build configuration list for PBXNativeTarget "SpeakEasyComplete" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B91E19A3EABC12365DAA2071 /* Release */,
+				E5000122FE53C05F537F7190 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 731E5AEA838C71338CEE49B3 /* Project object */;
+}
