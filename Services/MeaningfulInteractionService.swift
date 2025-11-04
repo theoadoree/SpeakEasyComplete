@@ -345,7 +345,7 @@ struct NegotiationResponse {
     let hint: String?
 
     enum NegotiationType {
-        case continue    // Understanding is clear
+        case `continue`    // Understanding is clear
         case clarify     // AI needs clarification from learner
         case confirm     // AI confirms understanding
         case help        // AI offers assistance
@@ -382,7 +382,7 @@ struct ComprehensionEvaluation {
     }
 
     enum NextAction {
-        case continue
+        case `continue`
         case clarify
         case reteach
         case simplify
